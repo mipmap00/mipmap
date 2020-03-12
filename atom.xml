@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mipmap.top/"/>
-  <updated>2020-03-12T14:08:39.842Z</updated>
+  <updated>2020-03-12T17:31:40.982Z</updated>
   <id>http://mipmap.top/</id>
   
   <author>
@@ -17,13 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>每日一题-2020.3.13</title>
+    <link href="http://mipmap.top/2020/03/13/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-13/"/>
+    <id>http://mipmap.top/2020/03/13/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-13/</id>
+    <published>2020-03-12T16:39:33.000Z</published>
+    <updated>2020-03-12T17:31:40.982Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="距离中考还有100天"><a href="#距离中考还有100天" class="headerlink" title="距离中考还有100天"></a>距离中考还有<font color="red">100</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：应用题"><a href="#题型：应用题" class="headerlink" title="题型：应用题"></a>题型：应用题</h2><h4 id="题目：已知关于x的方程-x-2-2m-1-x-m-2-1-有两个不相等的实数根-1-求m的取值范围2-设-x-1-x-2-是方程的两根且-x-2-1-x-2-2-x-1x-2-17-0-求m的值"><a href="#题目：已知关于x的方程-x-2-2m-1-x-m-2-1-有两个不相等的实数根-1-求m的取值范围2-设-x-1-x-2-是方程的两根且-x-2-1-x-2-2-x-1x-2-17-0-求m的值" class="headerlink" title="题目：已知关于x的方程$x^2+(2m+1)x+m^2-1$有两个不相等的实数根.1.求m的取值范围2.设$x_1,x_2$是方程的两根且$x^2_1+x^2_2+x_1x_2-17=0$.求m的值."></a>题目：已知关于x的方程$x^2+(2m+1)x+m^2-1$有两个不相等的实数根.<br>1.求m的取值范围<br>2.设$x_1,x_2$是方程的两根且$x^2_1+x^2_2+x_1x_2-17=0$.求m的值.</h4><p>分析：此题第一问为根据根的判别式求m的取值范围，第二问为利用元二次方程中根和系数之间的关系(韦达定理)求常数项，按步骤运算即可<br>解:(1)由题意：<br>$\Delta=(2m+1)^2-4(m^2-1)$<br>　&nbsp;$=4m^2+4m+1-4m^2+4$<br>　&nbsp;$=4m+5&gt;0$<br>　&nbsp;$m&gt;-\frac{5}{4}$<br>∴m的取值范围为$m&gt;-\frac{5}{4}$ <font color="red">）注意此时的m不是二次项的系数，否则应添加$m\not=0$）</font></p><p>(2)由题意：<br>$(x_1+x_2)^2-2x_1x_2+x_1x_2=17$<br>　　　　&nbsp;$(x_1+x_2)^2-x_1x_2=17$<br>根据方程：$x_1+x_2=-(2m+1),x_1x_2=m^2-1$<br>代入得：$(2m+1)^2-m^2+1=17$<br>化简得：　　&nbsp;&nbsp;$3m^2+4m-15=0$<br>　　　　　&nbsp;&nbsp;$(3m-5)(m+3)=0$<br>解得：$m_1=\frac{5}{3},m_2=-3$<br>∵$m&gt;-\frac{5}{4}$<br>∴$m=\frac{5}{3}$</p><h4 id="每日一句-日常挂起，明天补"><a href="#每日一句-日常挂起，明天补" class="headerlink" title="每日一句(日常挂起，明天补)"></a>每日一句(日常挂起，明天补)</h4><blockquote><p>content</p><footer><strong>[author[</strong><cite>source]] [link] [source_link_title]</cite></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>每日一题-2020.3.12</title>
     <link href="http://mipmap.top/2020/03/12/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-12/"/>
     <id>http://mipmap.top/2020/03/12/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-12/</id>
     <published>2020-03-11T17:44:05.000Z</published>
-    <updated>2020-03-12T14:08:39.842Z</updated>
+    <updated>2020-03-12T15:45:24.982Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="距离中考还有101天"><a href="#距离中考还有101天" class="headerlink" title="距离中考还有101天"></a>距离中考还有<font color="red">101</font>天</h1><h2 id="学科：化学"><a href="#学科：化学" class="headerlink" title="学科：化学"></a>学科：化学</h2><h2 id="题型：计算题"><a href="#题型：计算题" class="headerlink" title="题型：计算题"></a>题型：计算题</h2><h3 id="题目：-将CO通入盛有12g-Fe-2O-3-的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9-6g，则反应生成铁的质量为？"><a href="#题目：-将CO通入盛有12g-Fe-2O-3-的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9-6g，则反应生成铁的质量为？" class="headerlink" title="题目： 将CO通入盛有12g$Fe_2O_3$的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9.6g，则反应生成铁的质量为？"></a>题目： 将CO通入盛有12g$Fe_2O_3$的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9.6g，则反应生成铁的质量为？</h3><h4 id="分析：此题反应前后均有气体参与，因此无法直接使用两个量，但反应前后可知氧化铁反应为铁，失去氧元素，因此可以由此计算"><a href="#分析：此题反应前后均有气体参与，因此无法直接使用两个量，但反应前后可知氧化铁反应为铁，失去氧元素，因此可以由此计算" class="headerlink" title="分析：此题反应前后均有气体参与，因此无法直接使用两个量，但反应前后可知氧化铁反应为铁，失去氧元素，因此可以由此计算"></a>分析：此题反应前后均有气体参与，因此无法直接使用两个量，但反应前后可知氧化铁反应为铁，失去氧元素，因此可以由此计算</h4><h4 id="过程：设反应生成铁的质量为x"><a href="#过程：设反应生成铁的质量为x" class="headerlink" title="过程：设反应生成铁的质量为x"></a>过程：设反应生成铁的质量为x</h4><h4 id="由题意："><a href="#由题意：" class="headerlink" title="由题意："></a>由题意：<img src="/2020/03/12/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-12/20200312-1.jpg" alt="化学方程式"></h4><h4 id="则有-112-x-48-2-4x"><a href="#则有-112-x-48-2-4x" class="headerlink" title="则有: 112/x=48/2.4x"></a>则有: 112/x=48/2.4x</h4><h4 id="解得：x-5-6g"><a href="#解得：x-5-6g" class="headerlink" title="解得：x=5.6g"></a>解得：x=5.6g</h4><blockquote><p>如果你打了半小时的牌，仍然不知道谁是菜鸟，那么你就是</p><footer><strong>巴菲特</strong></footer></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="距离中考还有101天"><a href="#距离中考还有101天" class="headerlink" title="距离中考还有101天"></a>距离中考还有<font color="red">101</font>天</h1><h2 id="学科：化学"><a href="#学科：化学" class="headerlink" title="学科：化学"></a>学科：化学</h2><h2 id="题型：计算题"><a href="#题型：计算题" class="headerlink" title="题型：计算题"></a>题型：计算题</h2><h4 id="题目：-将CO通入盛有12g-Fe-2O-3-的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9-6g，则反应生成铁的质量为？"><a href="#题目：-将CO通入盛有12g-Fe-2O-3-的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9-6g，则反应生成铁的质量为？" class="headerlink" title="题目： 将CO通入盛有12g$Fe_2O_3$的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9.6g，则反应生成铁的质量为？"></a>题目： 将CO通入盛有12g$Fe_2O_3$的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9.6g，则反应生成铁的质量为？</h4><p>分析：此题反应前后均有气体参与，因此无法直接使用两个量，但反应前后可知氧化铁反应为铁，失去氧元素，因此可以由此计算<br>过程：设反应生成铁的质量为x<br>由题意：<img src="/2020/03/12/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-12/20200312-1.jpg" alt="化学方程式"><br>则有: 112/x=48/2.4x<br>解得：x=5.6g</p><h4 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h4><blockquote><p>如果你打了半小时的牌，仍然不知道谁是菜鸟，那么你就是</p><footer><strong>巴菲特</strong></footer></blockquote>]]></content>
     
     <summary type="html">
     
