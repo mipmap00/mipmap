@@ -332,19 +332,19 @@
                 </a>
 
                 
-                    <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light btn" target="_blank">
+                    <a href="https://github.com/mipmap00/mipmap00.github.io" class="waves-effect waves-light btn" target="_blank">
                         <i class="fab fa-github-alt"></i>Github
                     </a>
                 
             </div>
             <div class="cover-social-link">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/mipamp00" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:ldcrhy@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -354,13 +354,17 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1479696288" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1479696288" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
 
 
 
+
+    <a href="https://www.zhihu.com/people/00sec" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/00sec" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
 
 
 
@@ -396,7 +400,7 @@
         coverSlider.carousel({
             duration: Number('120'),
             fullWidth: true,
-            indicators: 'false' === 'true',
+            indicators: 'true' === 'true',
             onCycleTo() {
                 if (!initUserPressedOrDraggedActive) {
                     // console.log('initUserPressedOrDraggedActive')
@@ -408,11 +412,32 @@
 
         let carouselIntervalId;
         
+        // Loop to call the next cover article picture.
+        let autoCarousel = function () {
+            carouselIntervalId = setInterval(function () {
+                coverSlider.carousel('next');
+            }, 5000);
+        };
+        autoCarousel();
+        
 
         function restartPlay() {
             
+            clearInterval(carouselIntervalId);
+            autoCarousel();
+            
         };
 
+        
+        // prev and next cover post.
+        $('#prev-cover').click(function () {
+            coverSlider.carousel('prev');
+            restartPlay();
+        });
+        $('#next-cover').click(function () {
+            coverSlider.carousel('next');
+            restartPlay();
+        });
         
     });
 </script>
@@ -431,7 +456,7 @@
     
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            
+            浅水喧嚣，深潭无波。——雪莱
         </div>
     </div>
 </div>
@@ -657,7 +682,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">707</span>&nbsp;字
+                class="white-color">705</span>&nbsp;字
             
             
             
@@ -725,13 +750,13 @@
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/mipamp00" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:ldcrhy@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -741,13 +766,17 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1479696288" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1479696288" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
 
 
 
+
+    <a href="https://www.zhihu.com/people/00sec" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/00sec" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
 
 
 
