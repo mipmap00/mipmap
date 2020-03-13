@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>每日一题-2020-3-14</title>
+    <url>/2020/03/14/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-14/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="距离中考还有99天"><a href="#距离中考还有99天" class="headerlink" title="距离中考还有99天"></a>距离中考还有<font color="red">99</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：函数题"><a href="#题型：函数题" class="headerlink" title="题型：函数题"></a>题型：函数题</h2><h4 id="题目：如图①，在矩形-ABCD-中，AB＜AD，对角线-AC，BD-相交于点-O，动点-P-由点-A-出发，沿-AB→BC→CD-向点-D-运动．设点-P-的运动路程为-x，△AOP-的面积为-y，y-与-x-的函数关系图象如图②所示，则-AD-边的长为？"><a href="#题目：如图①，在矩形-ABCD-中，AB＜AD，对角线-AC，BD-相交于点-O，动点-P-由点-A-出发，沿-AB→BC→CD-向点-D-运动．设点-P-的运动路程为-x，△AOP-的面积为-y，y-与-x-的函数关系图象如图②所示，则-AD-边的长为？" class="headerlink" title="题目：如图①，在矩形 ABCD 中，AB＜AD，对角线 AC，BD 相交于点 O，动点 P 由点 A 出发，沿 AB→BC→CD 向点 D 运动．设点 P 的运动路程为 x，△AOP 的面积为 y，y 与 x 的函数关系图象如图②所示，则 AD 边的长为？"></a>题目：如图①，在矩形 ABCD 中，AB＜AD，对角线 AC，BD 相交于点 O，动点 P 由点 A 出发，沿 AB→BC→CD 向点 D 运动．设点 P 的运动路程为 x，△AOP 的面积为 y，y 与 x 的函数关系图象如图②所示，则 AD 边的长为？<br><img src="/2020/03/14/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-14/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%982020-03-14_3.png" alt="图①&amp;图②"></h4><p>分析：</p>
+<h4 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h4><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>函数题</tag>
+        <tag>中考题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>每日一题-2020.3.13</title>
     <url>/2020/03/13/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-13/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="距离中考还有100天"><a href="#距离中考还有100天" class="headerlink" title="距离中考还有100天"></a>距离中考还有<font color="red">100</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：应用题"><a href="#题型：应用题" class="headerlink" title="题型：应用题"></a>题型：应用题</h2><h4 id="题目：已知关于x的方程-x-2-2m-1-x-m-2-1-有两个不相等的实数根-2019-nbsp-巴中-1-求m的取值范围2-设-x-1-x-2-是方程的两根且-x-2-1-x-2-2-x-1x-2-17-0-求m的值"><a href="#题目：已知关于x的方程-x-2-2m-1-x-m-2-1-有两个不相等的实数根-2019-nbsp-巴中-1-求m的取值范围2-设-x-1-x-2-是方程的两根且-x-2-1-x-2-2-x-1x-2-17-0-求m的值" class="headerlink" title="题目：已知关于x的方程$x^2+(2m+1)x+m^2-1$有两个不相等的实数根.(2019&nbsp;巴中)1.求m的取值范围2.设$x_1,x_2$是方程的两根且$x^2_1+x^2_2+x_1x_2-17=0$.求m的值."></a>题目：已知关于x的方程$x^2+(2m+1)x+m^2-1$有两个不相等的实数根.(2019&nbsp;巴中)<br>1.求m的取值范围<br>2.设$x_1,x_2$是方程的两根且$x^2_1+x^2_2+x_1x_2-17=0$.求m的值.</h4><p>分析：此题第一问为根据根的判别式求m的取值范围，第二问为利用元二次方程中根和系数之间的关系(韦达定理)求常数项，按步骤运算即可<br>解:(1)由题意：<br>$\Delta=(2m+1)^2-4(m^2-1)$<br>　&nbsp;$=4m^2+4m+1-4m^2+4$<br>　&nbsp;$=4m+5&gt;0$<br>　&nbsp;$m&gt;-\frac{5}{4}$<br>∴m的取值范围为$m&gt;-\frac{5}{4}$ <font color="red">（注意此时的m不是二次项的系数，否则应添加$m\not=0$）</font></p>
@@ -30,6 +62,8 @@
       </categories>
       <tags>
         <tag>数学</tag>
+        <tag>中考题</tag>
+        <tag>计算题</tag>
       </tags>
   </entry>
   <entry>
@@ -60,6 +94,7 @@
         <category>每日一题</category>
       </categories>
       <tags>
+        <tag>计算题</tag>
         <tag>化学</tag>
       </tags>
   </entry>
