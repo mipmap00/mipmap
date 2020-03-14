@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mipmap.top/"/>
-  <updated>2020-03-14T05:15:06.050Z</updated>
+  <updated>2020-03-14T05:39:51.805Z</updated>
   <id>https://mipmap.top/</id>
   
   <author>
@@ -17,13 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>备用/备用</title>
+    <link href="https://mipmap.top/2020/03/14/%E5%A4%87%E7%94%A8/%E5%A4%87%E7%94%A8/"/>
+    <id>https://mipmap.top/2020/03/14/%E5%A4%87%E7%94%A8/%E5%A4%87%E7%94%A8/</id>
+    <published>2020-03-14T05:33:58.012Z</published>
+    <updated>2020-03-14T05:39:51.805Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>每日一题-2020-3-14</title>
     <link href="https://mipmap.top/2020/03/14/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-14/"/>
     <id>https://mipmap.top/2020/03/14/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-14/</id>
     <published>2020-03-13T16:51:41.000Z</published>
-    <updated>2020-03-14T05:15:06.050Z</updated>
+    <updated>2020-03-14T05:54:04.549Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="距离中考还有99天"><a href="#距离中考还有99天" class="headerlink" title="距离中考还有99天"></a>距离中考还有<font color="red">99</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：函数题"><a href="#题型：函数题" class="headerlink" title="题型：函数题"></a>题型：函数题</h2><h4 id="题目：如图①，在矩形-ABCD-中，AB＜AD，对角线-AC，BD-相交于点-O，动点-P-由点-A-出发，沿-AB→BC→CD-向点-D-运动．设点-P-的运动路程为-x，-triangle-AOP-的面积为-y，y-与-x-的函数关系图象如图②所示，则-AD-边的长为？"><a href="#题目：如图①，在矩形-ABCD-中，AB＜AD，对角线-AC，BD-相交于点-O，动点-P-由点-A-出发，沿-AB→BC→CD-向点-D-运动．设点-P-的运动路程为-x，-triangle-AOP-的面积为-y，y-与-x-的函数关系图象如图②所示，则-AD-边的长为？" class="headerlink" title="题目：如图①，在矩形 ABCD 中，AB＜AD，对角线 AC，BD 相交于点 O，动点 P 由点 A 出发，沿 AB→BC→CD 向点 D 运动．设点 P 的运动路程为 x，$\triangle AOP$的面积为 y，y 与 x 的函数关系图象如图②所示，则 AD 边的长为？"></a>题目：如图①，在矩形 ABCD 中，AB＜AD，对角线 AC，BD 相交于点 O，动点 P 由点 A 出发，沿 AB→BC→CD 向点 D 运动．设点 P 的运动路程为 x，$\triangle AOP$的面积为 y，y 与 x 的函数关系图象如图②所示，则 AD 边的长为？<br><img src="/2020/03/14/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-14/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%982020-03-14_3.png" alt="图①&amp;图②"></h4><p>分析：由图②可知，$\triangle AOP$的最大面积为3，又可知当P在AB上运动时$\triangle AOP$面积逐渐增大，到B时$\triangle AOP$面积最大为3，当P与点C重合时，无面积<br>解：由题意：过O做OE$\perp$AB于点E<br>∵O是AC的中点 OP$\parallel$AB 根据相似三角形（平行线分线段定理）可知2OE=BC<br>$$∴S_{\triangle AOP}=\frac{1}{2}AB\times OE$$<br>$$\frac{1}{4}AB\times BC=3$$<br>$$∴AB·BC=12$$<br>则可列方程组<br>$$\begin{cases}<br>AB·BC=12  \<br>AB+BC=7  \<br>\end{cases}<br>$$<font size="1px">注：这是显示的问题自己脑补一下</font><br>解得<br>$$AB=4或3$$<br>$$∵AB &lt; AD AD=BC$$<br>$$∴AB &lt; BC$$<br>$$AB=3,BC=4$$<br>$$AD=BC=4$$</p><h4 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h4><blockquote><p>生命以无限循环的形式在宇宙中生存。有神论者管这叫轮回转世，无神论者管这叫物质不灭。</p><footer><strong>郑渊洁</strong></footer></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="距离中考还有99天"><a href="#距离中考还有99天" class="headerlink" title="距离中考还有99天"></a>距离中考还有<font color="red">99</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：函数题"><a href="#题型：函数题" class="headerlink" title="题型：函数题"></a>题型：函数题</h2><h4 id="题目：如图①，在矩形-ABCD-中，AB＜AD，对角线-AC，BD-相交于点-O，动点-P-由点-A-出发，沿-AB→BC→CD-向点-D-运动．设点-P-的运动路程为-x，-triangle-AOP-的面积为-y，y-与-x-的函数关系图象如图②所示，则-AD-边的长为？"><a href="#题目：如图①，在矩形-ABCD-中，AB＜AD，对角线-AC，BD-相交于点-O，动点-P-由点-A-出发，沿-AB→BC→CD-向点-D-运动．设点-P-的运动路程为-x，-triangle-AOP-的面积为-y，y-与-x-的函数关系图象如图②所示，则-AD-边的长为？" class="headerlink" title="题目：如图①，在矩形 ABCD 中，AB＜AD，对角线 AC，BD 相交于点 O，动点 P 由点 A 出发，沿 AB→BC→CD 向点 D 运动．设点 P 的运动路程为 x，$\triangle AOP$的面积为 y，y 与 x 的函数关系图象如图②所示，则 AD 边的长为？"></a>题目：如图①，在矩形 ABCD 中，AB＜AD，对角线 AC，BD 相交于点 O，动点 P 由点 A 出发，沿 AB→BC→CD 向点 D 运动．设点 P 的运动路程为 x，$\triangle AOP$的面积为 y，y 与 x 的函数关系图象如图②所示，则 AD 边的长为？<br><img src="/2020/03/14/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-14/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%982020-03-14_3.png" alt="图①&amp;图②"></h4><p>分析：由图②可知，$\triangle AOP$的最大面积为3，又可知当P在AB上运动时$\triangle AOP$面积逐渐增大，到B时$\triangle AOP$面积最大为3，当P与点C重合时，无面积<br>解：由题意：过O做OE$\perp$AB于点E<br>∵O是AC的中点 OP$\parallel$AB 根据相似三角形（平行线分线段定理）可知2OE=BC<br>$$∴S_{\triangle AOP}=\frac{1}{2}AB\times OE$$<br>$$\frac{1}{4}AB\times BC=3$$<br>$$∴AB·BC=12$$<br>则可列方程组<br>$$\begin{cases}<br>AB·BC=12  \<br>AB+BC=7  \<br>\end{cases}<br>$$<font size="1px">注：这是显示的问题自己脑补一下</font><br>解得<br>$$AB=4或3$$<br>$$∵AB &lt; AD AD=BC$$<br>$$∴AB &lt; BC$$<br>$$AB=3,BC=4$$<br>$$AD=BC=4$$</p><h4 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h4><blockquote><p>世界上有两件东西能够深深的震撼人们的心灵，一件事我们心中崇高的道德标准，另一件是我们头顶上的灿烂星空。</p><footer><strong>康德</strong></footer></blockquote> <script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -40,9 +62,9 @@
     
       <category term="数学" scheme="https://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="函数题" scheme="https://mipmap.top/tags/%E5%87%BD%E6%95%B0%E9%A2%98/"/>
-    
       <category term="中考题" scheme="https://mipmap.top/tags/%E4%B8%AD%E8%80%83%E9%A2%98/"/>
+    
+      <category term="函数题" scheme="https://mipmap.top/tags/%E5%87%BD%E6%95%B0%E9%A2%98/"/>
     
   </entry>
   
@@ -68,9 +90,9 @@
       <category term="每日一题" scheme="https://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
     
     
-      <category term="计算题" scheme="https://mipmap.top/tags/%E8%AE%A1%E7%AE%97%E9%A2%98/"/>
-    
       <category term="数学" scheme="https://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="计算题" scheme="https://mipmap.top/tags/%E8%AE%A1%E7%AE%97%E9%A2%98/"/>
     
       <category term="中考题" scheme="https://mipmap.top/tags/%E4%B8%AD%E8%80%83%E9%A2%98/"/>
     
@@ -81,7 +103,7 @@
     <link href="https://mipmap.top/2020/03/12/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-12/"/>
     <id>https://mipmap.top/2020/03/12/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98-2020-3-12/</id>
     <published>2020-03-11T17:44:05.000Z</published>
-    <updated>2020-03-14T05:03:56.817Z</updated>
+    <updated>2020-03-14T05:57:44.423Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="距离中考还有101天"><a href="#距离中考还有101天" class="headerlink" title="距离中考还有101天"></a>距离中考还有<font color="red">101</font>天</h1><h2 id="学科：化学"><a href="#学科：化学" class="headerlink" title="学科：化学"></a>学科：化学</h2><h2 id="题型：计算题"><a href="#题型：计算题" class="headerlink" title="题型：计算题"></a>题型：计算题</h2><h4 id="题目：-将CO通入盛有12g-Fe-2O-3-的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9-6g，则反应生成铁的质量为？"><a href="#题目：-将CO通入盛有12g-Fe-2O-3-的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9-6g，则反应生成铁的质量为？" class="headerlink" title="题目： 将CO通入盛有12g$Fe_2O_3$的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9.6g，则反应生成铁的质量为？"></a>题目： 将CO通入盛有12g$Fe_2O_3$的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9.6g，则反应生成铁的质量为？</h4><p>分析：此题反应前后均有气体参与，因此无法直接使用两个量，但反应前后可知氧化铁反应为铁，失去氧元素，因此可以由此计算<br>过程：设反应生成铁的质量为x<br>由题意：$$\underset{160}{Fe_2O_3}+3CO\overset{高温}=\underset{112}{2Fe}+3CO_2 \qquad中间减少了\underset{48}{O_3}$$<br>则有: $\frac{112}{x}=\frac{48}{2.4x}$<br>解得：x=5.6g</p><h4 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h4><blockquote><p>如果你打了半小时的牌，仍然不知道谁是菜鸟，那么你就是</p><footer><strong>巴菲特</strong></footer></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -98,9 +120,9 @@
       <category term="每日一题" scheme="https://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
     
     
-      <category term="化学" scheme="https://mipmap.top/tags/%E5%8C%96%E5%AD%A6/"/>
-    
       <category term="计算题" scheme="https://mipmap.top/tags/%E8%AE%A1%E7%AE%97%E9%A2%98/"/>
+    
+      <category term="化学" scheme="https://mipmap.top/tags/%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   
