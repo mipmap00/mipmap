@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MipMap&#39;s Blog</title>
+  <icon>https://www.gravatar.com/avatar/66cdfdaa06f469b826cb136d9c983e98</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://mipmap.top/"/>
+  <updated>2020-05-03T07:58:52.000Z</updated>
+  <id>http://mipmap.top/</id>
+  
+  <author>
+    <name>MipMap</name>
+    <email>1479696288@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>函数题型总结(一)</title>
+    <link href="http://mipmap.top/posts/7ae5.html"/>
+    <id>http://mipmap.top/posts/7ae5.html</id>
+    <published>2020-05-01T03:44:33.000Z</published>
+    <updated>2020-05-03T07:58:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note primary no-icon">            <p>有关于函数题型总结的第一章—一次函数正式出炉</p>          </div><a id="more"></a><h2 id="第一章-一次函数"><a href="#第一章-一次函数" class="headerlink" title="第一章 一次函数"></a><center>第一章 一次函数</center></h2><h3 id="1-1-一次函数的图像与性质"><a href="#1-1-一次函数的图像与性质" class="headerlink" title="1.1 一次函数的图像与性质"></a>1.1 一次函数的图像与性质</h3><p>注：以下内容摘自《火线:100天》 逃<br>排版问题本人能力有限，只能做到这样了</p><p><style type="text/css"><br>.tg  {border-collapse:collapse;border-spacing:0;}<br>.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;<br>  overflow:hidden;padding:10px 5px;word-break:normal;}<br>.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;<br>  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}<br>.tg .tg-cv9r{border-color:inherit;color:rgb(0, 0, 0);text-align:left;vertical-align:top}<br>.tg .tg-dq6r{border-color:inherit;color:rgb(0, 0, 0);font-size:16px;text-align:center;vertical-align:top}<br>.tg .tg-q78j{background-color:#ffcc67;border-color:#000000;color:rgb(0, 0, 0);font-size:15px;font-weight:bold;text-align:center;<br>  vertical-align:top}<br>.tg .tg-gcnl{border-color:inherit;color:rgb(0, 0, 0);font-size:18px;text-align:center;vertical-align:middle}<br>.tg .tg-lwtf{background-color:#ffcc67;border-color:#000000;color:rgb(0, 0, 0);font-size:15px;font-weight:bold;text-align:center;<br>  vertical-align:middle}<br>.tg .tg-9e4f{border-color:inherit;color:rgb(0, 0, 0);text-align:center;vertical-align:top}</style></p><table class="tg">  <tr>    <th class="tg-q78j">一次函数</th>    <th class="tg-gcnl" colspan="6">y=kx+b(k≠0)(当b=0时，y=kx为正比例函数)</th>  </tr>  <tr>    <td class="tg-lwtf" rowspan="2">与坐标<br>轴交点</td>    <td class="tg-gcnl" colspan="6" rowspan="2">与x轴交于点($-\frac{b}{k}$,0)<br>与y轴交于点(b,0)</td>  </tr>  <tr>  </tr>  <tr>    <td class="tg-lwtf" rowspan="2">k,b<br>符号</td>    <td class="tg-dq6r" colspan="3">k&gt;0</td>    <td class="tg-dq6r" colspan="3">k&lt;0</td>  </tr>  <tr>    <td class="tg-9e4f">b&gt;0</td>    <td class="tg-9e4f">b&lt;0</td>    <td class="tg-9e4f">b=0</td>    <td class="tg-9e4f">b&gt;0</td>    <td class="tg-9e4f">b&lt;0</td>    <td class="tg-9e4f">b=0</td>  </tr>  <tr>    <td class="tg-lwtf" rowspan="3">大致<br>图像</td>    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_13.png" alt="Image" width="80" height="90"></td>    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_9.png" width="80" height="90"></td>    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_10.png" width="80" height="90"></td>    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_11.png" width="80" height="90"></td>    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_12.png" width="80" height="90"></td>    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_13.png" width="80" height="90"></td>  </tr>  <tr>  </tr>  <tr>  </tr>  <tr>    <td class="tg-q78j">经过象限</td>    <td class="tg-9e4f">一、二、三</td>    <td class="tg-9e4f">一、三、四</td>    <td class="tg-9e4f">一、三</td>    <td class="tg-9e4f">一、二、四</td>    <td class="tg-9e4f">二、三、四</td>    <td class="tg-9e4f">二、四</td>  </tr>  <tr>    <td class="tg-q78j">增减性</td>    <td class="tg-dq6r" colspan="3">y随x的增大而增大</td>    <td class="tg-dq6r" colspan="3">y随x的减小而减小</td>  </tr></table><h3 id="1-2-一次函数的解析式"><a href="#1-2-一次函数的解析式" class="headerlink" title="1.2 一次函数的解析式"></a>1.2 一次函数的解析式</h3><p>方法：待定系数法</p><ol><li>设一次函数的解析式 $y=kx+b(k \not ={0})$</li><li>如图，若图像上已知两点的坐标(当然考试里是不可能的) $A(x_a,y_a),B(x_b,y_b)$<br>则可列方程组<script type="math/tex; mode=display">\begin{cases}kx_a+b=y_a  \\kx_b+b=y_b  \\\end{cases}</script></li><li>解方程，得到k,b的值</li><li>将k，b的值代入$y=kx+b(k \not ={0})$，得到解析式<br>PS: 当一点在y轴上时，该点的纵坐标就为b的值（众所周知）</li></ol><h4 id="1-2-1变式"><a href="#1-2-1变式" class="headerlink" title="1.2.1变式"></a>1.2.1变式</h4><ol><li><p>一次函数与面积(一般常考一次函数与反比例函数中，这里仅仅做个例子)<br>(由于本人编题能力有限，放一道例题)<br><b>在一次函数$y=-x+3$的图像上取一点P，做$PA\perp{x轴}$，垂足为A；作$PB\perp{y轴}$，垂足为B；且矩形OAPB的面积为2，求点P的坐标</b><br>解：由题意$S_{四边形OAPB}=\vert{PA}\vert \times \vert{PB}\vert$,<br>设点P的坐标$(x_p,-x_p+3)$<br>则有$\vert{PA}\vert=\vert{x_p}\vert$，$\vert{PB}\vert=\vert{-x_p+3}\vert$<br>所以$S=\vert{x_p}\vert\cdot\vert{-x_p+3}\vert$<br>即$x^2_p-3x_p-2=0$或$x^2_p-3x_p+2=0$<br>解得$x_p=\frac{3-\sqrt{17}}{2}$,$x_p=\frac{3+\sqrt{17}}{2}$,$x_p=1$,$x_p=2$<br>所以P的坐标为：$P(\frac{3-\sqrt{17}}{2}$,$\frac{3+\sqrt{17}}{2})$,$P(\frac{3+\sqrt{17}}{2},\frac{3-\sqrt{17}}{2})$,$P(1,2)$,$P(2,1)$</p></li><li><p>一次函数与平移<br>设直线$y=kx+b(k \not ={0})$</p><ul><li>向左平移m(m&gt;0)个单位长度$\rightarrow{y=k(x+m)+b}$</li><li>向右平移m(m&gt;0)个单位长度$\rightarrow{y=k(x-m)+b}$</li><li>向上平移m(m&gt;0)个单位长度$\rightarrow{y=kx+b+m}$</li><li>向下平移m(m&gt;0)个单位长度$\rightarrow{y=kx+b-m}$</li></ul></li><li><p>一次函数与折叠</p></li><li>一次函数与动点<br>这两个先留着，到时候有需要了，或者找到好的例题了再更</li></ol><font size="5" style="color:yellow"><center>看我这么努力的份上，打赏一下请我吃糖吧</center></font>]]></content>
+    
+    <summary type="html">
+    
+      第一章·一次函数
+    
+    </summary>
+    
+    
+      <category term="函数总结" scheme="http://mipmap.top/categories/%E5%87%BD%E6%95%B0%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="第1章" scheme="http://mipmap.top/categories/%E5%87%BD%E6%95%B0%E6%80%BB%E7%BB%93/%E7%AC%AC1%E7%AB%A0/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="函数" scheme="http://mipmap.top/tags/%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>函数题型总结(零)</title>
+    <link href="http://mipmap.top/posts/bc01.html"/>
+    <id>http://mipmap.top/posts/bc01.html</id>
+    <published>2020-04-25T06:35:33.000Z</published>
+    <updated>2020-05-03T07:10:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>主要起目录作用，坑填好了会把文字换成链接</p><h2 id="第1章-一次函数"><a href="#第1章-一次函数" class="headerlink" title="第1章 一次函数"></a>第1章 一次函数</h2><ul><li>1.1 <a href="https://mipmap.top/posts/7ae5.html#1-1-%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E7%9A%84%E5%9B%BE%E5%83%8F%E4%B8%8E%E6%80%A7%E8%B4%A8" title="一次函数的图像与性质">一次函数的图像与性质</a></li><li>1.2 <a href="https://mipmap.top/posts/7ae5.html#1-2-%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E7%9A%84%E8%A7%A3%E6%9E%90%E5%BC%8F" title="一次函数的解析式">一次函数的解析式</a></li><li>1.3 一次函数与一元一次方程,不等式</li><li>1.4 一次函数有关特殊公式</li></ul><h2 id="第2章-反比例函数"><a href="#第2章-反比例函数" class="headerlink" title="第2章 反比例函数"></a>第2章 反比例函数</h2><ul><li>2.1 反比例函数的图像与性质</li><li>2.2 反比例函数的解析式</li><li>2.3 反比例函数中的面积问题</li><li>2.4 反比例函数与一次函数</li></ul><h2 id="第3章-二次函数"><a href="#第3章-二次函数" class="headerlink" title="第3章 二次函数"></a>第3章 二次函数</h2><ul><li>3.1 二次函数的图像与性质</li><li>3.2 二次函数的解析式</li><li>3.3 二次函数与方程,不等式</li><li>3.4 二次函数与一次函数</li></ul><h2 id="第4章-综合应用"><a href="#第4章-综合应用" class="headerlink" title="第4章 综合应用"></a>第4章 综合应用</h2><p>主要是一些压轴题的解题方法</p>]]></content>
+    
+    <summary type="html">
+    
+      继每日一题后新挖的一个大坑
+    
+    </summary>
+    
+    
+      <category term="函数总结" scheme="http://mipmap.top/categories/%E5%87%BD%E6%95%B0%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="第0章" scheme="http://mipmap.top/categories/%E5%87%BD%E6%95%B0%E6%80%BB%E7%BB%93/%E7%AC%AC0%E7%AB%A0/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="函数" scheme="http://mipmap.top/tags/%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>论以成败论英雄</title>
+    <link href="http://mipmap.top/posts/cfb5.html"/>
+    <id>http://mipmap.top/posts/cfb5.html</id>
+    <published>2020-04-09T18:30:00.000Z</published>
+    <updated>2020-04-19T04:58:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>大半夜的，随便写点东西（诸位就当看沙雕一样看就行了）<br>先放原视频</p><center><div class="bili_video"><iframe src="https://player.bilibili.com/player.html?aid=53893527&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" width="544" height="452" allowfullscreen="true"> </iframe></div></center><h3 id="论以成败论英雄"><a href="#论以成败论英雄" class="headerlink" title="论以成败论英雄"></a><center>论以成败论英雄</center></h3><p>&emsp;&emsp;b站上有一个很火的辩论，2001年国际大专辩论赛半决赛，武汉大学和新加坡国立大学，辩论关于以成败论英雄是否可取，其实这个论题放在今日，相信大部分人都会认同反方的立场，的确，英雄不以成败论，可是我们普通人呢？<br>&emsp;&emsp;或许总是有人再说“只求自己努力，不问结果”，可是人们真正去评判一个人又是如何评判的呢？当一个人失败，人们便可以找到各种奚落的话语；而若一个人取得成功，那么他的所作所为亦成为了他成功的原因。就如学习生活，有人努力学习，可最终仍是无法得偿所愿，人们便会说他没有运用正确的方法，学习方式不当；可同样的方式，也许放到另一个人身上，就成了勤奋而后取得成就的表现。就如一个每日睡觉而取得了好成绩，人们会认为他或许深夜努力，亦或许早有准备，最多加上一个天才的名号，可若是一个每天睡觉然后成绩下滑，则会被冠以自甘堕落之名。<br>&emsp;&emsp;似乎我们的生活中，处处在以成败论凡人。的确社会竞争激烈，但人们究竟应该不以成败论凡人，或许我们应该考虑更多的客观因素就如法律对各种事物有清晰的标准一样，我们衡量一个人时，不仅要看过程，同时也要考虑到各种客观条件，比如同样是努力，那么我们还要去注意一个人的学习环境，条件，所学知识以及天赋，虽说人们学习能力是相似的，但不可否认天赋确实占有一定的比例，当我们不再去只注重结果和努力，而能全方位考量时，或许对事物的看法就会有不同的认识。<br>（本文为深夜瞎编之作，大家看看就行）<br>PS: 英雄之所以不以成败论之，是因为他们本身所做的事情已经能够影响到人们，人们已经自然而然的不以成败论之，但平常人谁会去闲着没事关注你做事的过程，最终只会被以成败论之<br>最后放上白鼠的鬼畜</p><center><div class="bili_video"><iframe src="https://player.bilibili.com/player.html?aid=54702487&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" width="544" height="452" allowfullscreen="true"> </iframe></div></center>]]></content>
+    
+    <summary type="html">
+    
+      深夜瞎编之作（本文含有两个视频）
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://mipmap.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="语文" scheme="http://mipmap.top/tags/%E8%AF%AD%E6%96%87/"/>
+    
+      <category term="议论文" scheme="http://mipmap.top/tags/%E8%AE%AE%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将Hexo部署到树莓派上</title>
+    <link href="http://mipmap.top/posts/84ed.html"/>
+    <id>http://mipmap.top/posts/84ed.html</id>
+    <published>2020-04-03T14:54:58.000Z</published>
+    <updated>2020-04-12T14:41:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="安装树莓派"><a href="#安装树莓派" class="headerlink" title="安装树莓派"></a>安装树莓派</h3><ol><li>下载<a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener">树莓派镜像</a></li><li>下载安装<a href="https://etcher.io/" target="_blank" rel="noopener">etcher</a></li><li>使用etcher将镜像写入tf卡<img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/raspberry_1.png" alt=""></li><li><p>配置打开sshd，配置树莓派的wifi<br>在树莓派boot目录下新建wpa_supplicant.conf文件，写入如下内容</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">country&#x3D;CN</span><br><span class="line">ctrl_interface&#x3D;DIR&#x3D;&#x2F;var&#x2F;run&#x2F;wpa_supplicant GROUP&#x3D;netdev</span><br><span class="line">update_config&#x3D;1</span><br><span class="line">network&#x3D;&#123;</span><br><span class="line">ssid&#x3D;&quot;你的网络名称&quot;</span><br><span class="line">psk&#x3D;&quot;你的网络密码&quot;</span><br><span class="line">key_mgmt&#x3D;WPA-PSK</span><br><span class="line">priority&#x3D;1</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>并在Boot目录下新建名为SSH的空文件</p></li><li><p>启动树莓派，<a href="https://www.jianshu.com/p/f2e0a02c01d9" target="_blank" rel="noopener">确定树莓派IP地址</a></p></li><li><a href="https://linux.cn/article-10888-1.html?pr" target="_blank" rel="noopener">通过ssh登录树莓派</a><br>注:树莓派用户名为:pi，初始密码为:raspberry</li></ol><h3 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h3><ol><li>修改pi用户密码<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">passwd pi</span><br></pre></td></tr></table></figure></li><li><p>为树莓派换源</p><ul><li>修改软件更新源<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/apt/sources.list</span><br></pre></td></tr></table></figure>将原有内容注释，并加入如下内容<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deb http:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;raspbian&#x2F;raspbian&#x2F; stretch main contrib non-free rpi</span><br></pre></td></tr></table></figure>「Ctrl+O」进行保存，然后回车，「Ctrl+X」退出<br><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/raspberry_2.png" alt=""></li><li>修改系统更新源<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/apt/sources.list.d/raspi.list</span><br></pre></td></tr></table></figure>将原有内容注释，并加入如下内容<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deb http:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;archive.raspberrypi.org&#x2F;debian&#x2F; buster main</span><br></pre></td></tr></table></figure>「Ctrl+O」进行保存，然后回车，「Ctrl+X」退出<br><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/raspberry_3.png" alt=""></li><li>修改PIP的源<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/pip.conf</span><br></pre></td></tr></table></figure>删除原有内容，加入如下内容<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[global]</span><br><span class="line">index-url&#x3D;https:&#x2F;&#x2F;mirrors.aliyun.com&#x2F;pypi&#x2F;simple&#x2F;</span><br><span class="line">extra-index-url&#x3D;https:&#x2F;&#x2F;www.piwheels.org&#x2F;simple</span><br></pre></td></tr></table></figure>「Ctrl+O」进行保存，然后回车，「Ctrl+X」退出<br><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/raspberry_4.png" alt=""></li><li>同步更新源,更新升级以安装软件包<br>执行如下命令<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get upgrade</span><br></pre></td></tr></table></figure></li></ul></li><li><p>安装一些常用的基础库</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install libevent-dev libjpeg-dev build-essential libssl-dev libffi-dev python3-dev libavahi-compat-libdnssd-dev libatlas-base-dev autoconf python3-venv</span><br></pre></td></tr></table></figure></li><li><p>安装Samba和配置(此步可跳过)</p><ul><li>安装Samba<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install samba samba-common</span><br></pre></td></tr></table></figure></li><li>增加用户pi并设置密码<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo smbpasswd -a pi</span><br></pre></td></tr></table></figure></li><li>更改只读权限<br>打开Samba的配置文件，找到HOMES，将其中的<code>read only</code>改为<code>no</code><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/samba/smb.conf</span><br></pre></td></tr></table></figure></li><li>重启samba服务<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl restart smbd</span><br></pre></td></tr></table></figure></li><li>在Windows中访问Samba<br>在Windows中添加网络位置，如图，IP设置为树莓派的IP即可<br><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/raspberry_6.png" alt=""><br>然后输入用户名(pi)，密码(你在第二步设置的密码)即可在Windows本地操作树莓派<br><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/raspberry_7.png" alt=""><br><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/raspberry_8.png" alt=""> </li></ul></li><li>安装nodejs<ul><li>安装<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget https://npm.taobao.org/mirrors/node/v12.16.1/node-v12.16.1-linux-armv7l.tar.xz</span><br><span class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/lib</span><br><span class="line">sudo mkdir nodejs</span><br><span class="line">sudo tar -xJvf ~/node-v12.16.1-linux-armv7l.tar.xz -C /usr/<span class="built_in">local</span>/lib/nodejs</span><br><span class="line">sudo ln -s /usr/<span class="built_in">local</span>/lib/nodejs/node-v12.16.1-linux-armv7l/bin/node /usr/bin/node</span><br><span class="line">sudo ln -s /usr/<span class="built_in">local</span>/lib/nodejs/node-v12.16.1-linux-armv7l/bin/npm /usr/bin/npm</span><br><span class="line">sudo ln -s /usr/<span class="built_in">local</span>/lib/nodejs/node-v12.16.1-linux-armv7l/bin/npx /usr/bin/npx</span><br></pre></td></tr></table></figure></li><li>检查安装<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">npx -v</span><br></pre></td></tr></table></figure></li><li>换源<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>直接将默认源转变为淘宝源，也可以通过<a href="https://www.jianshu.com/p/4aaf929bfa71" target="_blank" rel="noopener">安装cnpm的方式</a></li></ul></li><li><p>配置Git</p><ul><li>安装Git<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install git</span><br></pre></td></tr></table></figure></li><li>设置Git邮箱和用户名<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourgithubname"</span></span><br><span class="line">git config --global user.email <span class="string">"yourgithubemail"</span></span><br></pre></td></tr></table></figure></li><li>设置ssh key<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>生成后部署到github、gitee、coding和服务器上(有哪个就部署哪个)<br>检验<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@git.coding.net</span><br><span class="line">ssh -T git@gitee.com</span><br><span class="line">ssh -v git@YourServerIP</span><br></pre></td></tr></table></figure></li></ul></li><li><p>安装Hexo</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo npm install hexo-cli -g</span><br></pre></td></tr></table></figure></li><li><p>上传本地分支(8、9两步可直接通过Samba完成)</p><ul><li>先在github或gitee或coding上新建一个hexo分支<br><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/raspberry_9.png" alt=""></li><li>在这个仓库的settings中，选择默认分支为hexo分支（这样每次同步的时候就不用指定分支，比较方便）</li><li>在本地目录下克隆分支<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> 你仓库的SSH</span><br></pre></td></tr></table></figure>将其克隆到本地，因为默认分支已经设成了hexo，所以clone时只clone了hexo</li><li>在克隆到本地克隆下来的文件夹中中，把除了.git 文件夹外的所有文件都删掉<br>把之前我们写的博客源文件全部复制过来，除了<code>.deploy_git</code>。注意，复制过来的源文件应该有一个.<code>gitignore</code>，用来忽略一些不需要的文件</li><li>打开Git Bash，进入目录<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">"add branch"</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure></li></ul></li><li><p>在树莓派上下载分支(8、9两步可直接通过Samba完成)<br>在任意目录下</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> 你博客分支的SSH</span><br></pre></td></tr></table></figure><p>进入克隆的文件夹，并在文件夹下</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>之后就可以HEXO三连了<code>hexo cl &amp;&amp; hexo g -d &amp;&amp; hexo s</code></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      在树莓派上部署HEXO(目前自认为写的最好的一篇教程)
+    
+    </summary>
+    
+    
+      <category term="博客部署" scheme="http://mipmap.top/categories/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="Raspberry" scheme="http://mipmap.top/categories/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/Raspberry/"/>
+    
+    
+      <category term="HEXO" scheme="http://mipmap.top/tags/HEXO/"/>
+    
+      <category term="Raspberry" scheme="http://mipmap.top/tags/Raspberry/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-21</title>
+    <link href="http://mipmap.top/posts/f05f.html"/>
+    <id>http://mipmap.top/posts/f05f.html</id>
+    <published>2020-03-21T05:08:39.000Z</published>
+    <updated>2020-04-25T06:50:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="距离中考还有92天"><a href="#距离中考还有92天" class="headerlink" title="距离中考还有92天"></a>距离中考还有<font color=red>92</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：函数题"><a href="#题型：函数题" class="headerlink" title="题型：函数题"></a>题型：函数题</h2><h3 id="题目：-2019·齐齐哈尔-如图，抛物线-y-ax-2-bx-c-a-not-0-与x轴交于点-3，0-，其对称轴为直线-x-frac-1-2-，结合图象分析下列结论：①abc-gt-0；②3a-c-gt-0；③当x"><a href="#题目：-2019·齐齐哈尔-如图，抛物线-y-ax-2-bx-c-a-not-0-与x轴交于点-3，0-，其对称轴为直线-x-frac-1-2-，结合图象分析下列结论：①abc-gt-0；②3a-c-gt-0；③当x" class="headerlink" title="题目：(2019·齐齐哈尔) 如图，抛物线$y=ax^2+bx+c(a\not ={0})$与x轴交于点(-3，0)，其对称轴为直线$x=-\frac{1}{2}$，结合图象分析下列结论：①abc&gt;0；②3a+c&gt;0；③当x"></a>题目：(2019·齐齐哈尔) 如图，抛物线$y=ax^2+bx+c(a\not ={0})$与x轴交于点(-3，0)，其对称轴为直线$x=-\frac{1}{2}$，结合图象分析下列结论：<img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/math_3.jpg" alt=""><br>①abc&gt;0；②3a+c&gt;0；③当x<0时，y随x的增大而增大；④一元二次方程$cx^2+bx+a=0$的两根分别为$x_1=-\frac{1}{3}$,$x_2=\frac{1}{2}$；⑤$\frac{b^2-4ac}{4a}<0$；⑥若m，n(m<n)为方程$a(x+3)(x-2)+3=0$的两个根，则m<-3且n>2．其中正确的结论有</h3><p>分析：分析个P的分析，按套路一个个解<br>解：③∵抛物线的对称轴为$x=-\frac{1}{2}$<br>∴当$x&gt;-\frac{1}{2}$时，y随x的增大而减小，当$x&lt;-\frac{1}{2}$时，y随x的增大而增大<br>③错误<br>④由图像可知，抛物线$ax^2+bx+c=0$的两根为$x_1=-3,x_2=2$<br>∴$\frac{b}{a}=1,\frac{c}{a}=6$(一元二次方程的根系关系)<br>将$cx^2+bx+a=0$两边同时除a得$\frac{c}{a}x^2+\frac{b}{a}x+1=0$<br>即$-6x^2+x+1=0$<br>解得$x_1=-\frac{1}{3}$,$x_2=\frac{1}{2}$<br>故④正确</p><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>睡眠是我们为那笔在死亡时才收回的资本付出的利息：利息率愈高，支付愈按时，偿清的日期就推得逾迟</p><footer><strong>叔本华</strong></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      一道综合考察性较强的函数选择题(二)
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="中考题" scheme="http://mipmap.top/tags/%E4%B8%AD%E8%80%83%E9%A2%98/"/>
+    
+      <category term="函数" scheme="http://mipmap.top/tags/%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-20</title>
+    <link href="http://mipmap.top/posts/309e.html"/>
+    <id>http://mipmap.top/posts/309e.html</id>
+    <published>2020-03-20T14:01:14.000Z</published>
+    <updated>2020-04-25T06:50:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="距离中考还有93天"><a href="#距离中考还有93天" class="headerlink" title="距离中考还有93天"></a>距离中考还有<font color=red>93</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：函数题"><a href="#题型：函数题" class="headerlink" title="题型：函数题"></a>题型：函数题</h2><h3 id="题目：-2019·齐齐哈尔-如图，抛物线-y-ax-2-bx-c-a-not-0-与x轴交于点-3，0-，其对称轴为直线-x-frac-1-2-，结合图象分析下列结论：①abc-gt-0；②3a-c-gt-0；③当x"><a href="#题目：-2019·齐齐哈尔-如图，抛物线-y-ax-2-bx-c-a-not-0-与x轴交于点-3，0-，其对称轴为直线-x-frac-1-2-，结合图象分析下列结论：①abc-gt-0；②3a-c-gt-0；③当x" class="headerlink" title="题目：(2019·齐齐哈尔) 如图，抛物线$y=ax^2+bx+c(a\not ={0})$与x轴交于点(-3，0)，其对称轴为直线$x=-\frac{1}{2}$，结合图象分析下列结论：①abc&gt;0；②3a+c&gt;0；③当x"></a>题目：(2019·齐齐哈尔) 如图，抛物线$y=ax^2+bx+c(a\not ={0})$与x轴交于点(-3，0)，其对称轴为直线$x=-\frac{1}{2}$，结合图象分析下列结论：<img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/math_3.jpg" alt=""><br>①abc&gt;0；②3a+c&gt;0；③当x<0时，y随x的增大而增大；④一元二次方程$cx^2+bx+a=0$的两根分别为$x_1=-\frac{1}{3}$,$x_2=\frac{1}{2}$；⑤$\frac{b^2-4ac}{4a}<0$；⑥若m，n(m<n)为方程$a(x+3)(x-2)+3=0$的两个根，则m<-3且n>2．其中正确的结论有</h3><p>分析：分析个P的分析，按套路一个个解<br>解：<br>①由图像可知a<0，∵对称轴在y轴左侧，所以a,b同号，b,0，又因为抛物线与y轴交点在x轴上方，所以c>0<br>综上所述：abc&gt;0<br>②∵抛物线的对称轴为直线$x=-\frac{1}{2}$<br>即$-\frac{b}{2a}=-\frac{1}{2}$<br>∴a=b<br>∵抛物线与x轴交点为(-3,0)所以$9a-3b+c=0$<br>∴c=-6a<br>则有3a+c=-3a<br>由①知a<0</br>∴3a+c&gt;0</p><blockquote><p>PS:周末的两更我实在肝不动了，先放放，有空补上</p></blockquote><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>这个世界根本不存在“不会”这回事,当你失去所有依赖心理的时候,你自然就什么都会了</p><footer><strong>尼克·胡哲</strong></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      一道综合考察性较强的函数选择题(一)
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+      <category term="数学" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="中考题" scheme="http://mipmap.top/tags/%E4%B8%AD%E8%80%83%E9%A2%98/"/>
+    
+      <category term="函数" scheme="http://mipmap.top/tags/%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-19</title>
+    <link href="http://mipmap.top/posts/3167.html"/>
+    <id>http://mipmap.top/posts/3167.html</id>
+    <published>2020-03-19T14:24:31.000Z</published>
+    <updated>2020-04-25T06:50:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="距离中考还有94天"><a href="#距离中考还有94天" class="headerlink" title="距离中考还有94天"></a>距离中考还有<font color=red>94</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：函数题"><a href="#题型：函数题" class="headerlink" title="题型：函数题"></a>题型：函数题</h2><h3 id="题目：-2019·孝感-如图，双曲线-y-frac-9-x-经过矩形OABC的顶点B，双曲线-y-frac-k-x-x-gt-0-交AB，BC于点E，F，且与矩形的对角线OB交于点D，连接EF-若OD：OB-2：3，则-triangle-BEF-的面积为"><a href="#题目：-2019·孝感-如图，双曲线-y-frac-9-x-经过矩形OABC的顶点B，双曲线-y-frac-k-x-x-gt-0-交AB，BC于点E，F，且与矩形的对角线OB交于点D，连接EF-若OD：OB-2：3，则-triangle-BEF-的面积为" class="headerlink" title="题目：(2019·孝感) 如图，双曲线$y=\frac{9}{x}$经过矩形OABC的顶点B，双曲线$y=\frac{k}{x}(x&gt;0)$交AB，BC于点E，F，且与矩形的对角线OB交于点D，连接EF.若OD：OB=2：3，则$\triangle BEF$的面积为"></a>题目：(2019·孝感) 如图，双曲线$y=\frac{9}{x}$经过矩形OABC的顶点B，双曲线$y=\frac{k}{x}(x&gt;0)$交AB，BC于点E，F，且与矩形的对角线OB交于点D，连接EF.若OD：OB=2：3，则$\triangle BEF$的面积为</h3><p><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/math_2.png" alt=""><br>分析：此题利用两线段之比可以设D的坐标，由坐标推出BE，BF的值<br>解：由题意，设$B(3m,3n)$则$D(2m,2n)$<br>将$B(3m,3n)$代入$y=\frac{9}{x}$得</p><script type="math/tex; mode=display">3n=\frac{9}{3m}</script><p>则有</p><script type="math/tex; mode=display">mn=1</script><p>将$D(2m,2n)$代入$y=\frac{k}{x}$得</p><script type="math/tex; mode=display">k=4mn</script><p>即</p><script type="math/tex; mode=display">k=4</script><p>∴在$y=\frac{4}{x}$中，当$x=3m$时$y=\frac{4}{3m}$，当$y=3n$时$x=\frac{4}{3n}$<br>即</p><script type="math/tex; mode=display">E(3m,\frac{4}{3m})，F(\frac{4}{3n},3n)</script><script type="math/tex; mode=display">∴BF=\frac{5}{3n}，BE=\frac{5}{3m}</script><p>$∵S_{\triangle BEF}=\frac{1}{2}BE·BF$<br>$=\frac{1}{2}·\frac{5}{3n}·\frac{5}{3m}$<br>$=\frac{25}{18mn}$<br>$=\frac{25}{18}$<br>∴$\triangle BEF$的面积为$\frac{25}{18}$</p><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>如果你的出发点就是讨人喜欢,你就得准备在任何时候,任何事情上妥协,而你将一事无成</p><footer><strong>撒切尔夫人就职首相10周年演说</strong></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      两条曲线与一条平行于坐标轴的直线所形成的几何图形的面积
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+      <category term="数学" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="中考题" scheme="http://mipmap.top/tags/%E4%B8%AD%E8%80%83%E9%A2%98/"/>
+    
+      <category term="函数" scheme="http://mipmap.top/tags/%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-18</title>
+    <link href="http://mipmap.top/posts/69f.html"/>
+    <id>http://mipmap.top/posts/69f.html</id>
+    <published>2020-03-18T13:15:07.000Z</published>
+    <updated>2020-04-25T06:50:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="距离中考还有95天"><a href="#距离中考还有95天" class="headerlink" title="距离中考还有95天"></a>距离中考还有<font color=red>95</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：函数题"><a href="#题型：函数题" class="headerlink" title="题型：函数题"></a>题型：函数题</h2><h3 id="题目：-2019·广元-如图，抛物线-y-ax-2-bx-3-a-not-0-过点-1-0-，-0-2-且顶点在第一象限，设-M-4a-2b-c-，则M的取值范围是"><a href="#题目：-2019·广元-如图，抛物线-y-ax-2-bx-3-a-not-0-过点-1-0-，-0-2-且顶点在第一象限，设-M-4a-2b-c-，则M的取值范围是" class="headerlink" title="题目：(2019·广元) 如图，抛物线$y=ax^2+bx+3(a \not= 0)$过点$(-1,0)$，$(0,2)$,且顶点在第一象限，设$M=4a+2b+c$，则M的取值范围是"></a>题目：(2019·广元) 如图，抛物线$y=ax^2+bx+3(a \not= 0)$过点$(-1,0)$，$(0,2)$,且顶点在第一象限，设$M=4a+2b+c$，则M的取值范围是</h3><p><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/math_1.png" alt=""><br>分析：此题利用题目中给出的顶点的象限以及给出的两点，寻找等量关系<br>解：∵图像与y轴交于$(0,2)$，则可知$c=2$<br>将点$(-1,0)$代入得</p><script type="math/tex; mode=display">0=a-b+2</script><p>所以</p><script type="math/tex; mode=display">b=a+2</script><p>由题意，顶点在第一象限，抛物线开口向下</p><script type="math/tex; mode=display">- \frac{b}{2a}>0,a<0</script><script type="math/tex; mode=display">∴b>0,a>-2</script><p>综上</p><script type="math/tex; mode=display">-2<a<0</script><script type="math/tex; mode=display">∴M=4a+2(a+2)+2</script><script type="math/tex; mode=display">=6a+6</script><script type="math/tex; mode=display">=6(a+1)</script><script type="math/tex; mode=display">∴-6<M<6</script><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>我愿作一枚白昼的月亮, 不求眩目的荣华, 不淆世俗的潮浪</p><footer><strong>白昼的月亮 </strong><cite>顾城</cite></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      利用已知条件求函数的取值范围
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+      <category term="数学" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="中考题" scheme="http://mipmap.top/tags/%E4%B8%AD%E8%80%83%E9%A2%98/"/>
+    
+      <category term="函数" scheme="http://mipmap.top/tags/%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-17</title>
+    <link href="http://mipmap.top/posts/2df.html"/>
+    <id>http://mipmap.top/posts/2df.html</id>
+    <published>2020-03-17T15:23:22.000Z</published>
+    <updated>2020-03-29T08:07:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="距离中考还有96天"><a href="#距离中考还有96天" class="headerlink" title="距离中考还有96天"></a>距离中考还有<font color=red>96</font>天</h1><h2 id="学科：物理"><a href="#学科：物理" class="headerlink" title="学科：物理"></a>学科：物理</h2><h2 id="题型：画图题"><a href="#题型：画图题" class="headerlink" title="题型：画图题"></a>题型：画图题</h2><h3 id="题目：-2019·娄底-如图所示，S’为发光点S在平面镜MN中所成的像，请在图中画出发光点S的位置，并画出一条由S点发出，经平面镜反射后通过P点的光线。-lt-br-gt"><a href="#题目：-2019·娄底-如图所示，S’为发光点S在平面镜MN中所成的像，请在图中画出发光点S的位置，并画出一条由S点发出，经平面镜反射后通过P点的光线。-lt-br-gt" class="headerlink" title="题目： (2019·娄底) 如图所示，S’为发光点S在平面镜MN中所成的像，请在图中画出发光点S的位置，并画出一条由S点发出，经平面镜反射后通过P点的光线。&lt;/br&gt;"></a>题目： (2019·娄底) 如图所示，S’为发光点S在平面镜MN中所成的像，请在图中画出发光点S的位置，并画出一条由S点发出，经平面镜反射后通过P点的光线。&lt;/br&gt;<img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/physics_1.png" alt=""></h3><p>分析：作出像点S’的对称点,即为发光点S,连接S’P,与镜面的交点为入射点O,再连接SO,画上箭头,则SO为入射光线,OP为反射光线。<br>解：如图所示<br><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/physics_2.png" alt=""></p><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>人生永远追逐着幻光，但谁把幻光看作幻光，谁便沉入无边的苦海</p><footer><strong>杂感 </strong><cite>臧克家</cite></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      一道经典的光的反射现象的题型
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+      <category term="物理" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/%E7%89%A9%E7%90%86/"/>
+    
+    
+      <category term="物理" scheme="http://mipmap.top/tags/%E7%89%A9%E7%90%86/"/>
+    
+      <category term="光学" scheme="http://mipmap.top/tags/%E5%85%89%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-16</title>
+    <link href="http://mipmap.top/posts/c21e.html"/>
+    <id>http://mipmap.top/posts/c21e.html</id>
+    <published>2020-03-16T15:52:14.000Z</published>
+    <updated>2020-03-29T08:07:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="距离中考还有97天"><a href="#距离中考还有97天" class="headerlink" title="距离中考还有97天"></a>距离中考还有<font color=red>97</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：直线与圆的位置关系"><a href="#题型：直线与圆的位置关系" class="headerlink" title="题型：直线与圆的位置关系"></a>题型：直线与圆的位置关系</h2><h3 id="（2018·大庆）已知直线-y-kx-k-not-0-经过点（12-5），将直线向上平移m（m＞0）个单位，若平移后得到的直线与半径为6的⊙O相交（点O为坐标原点），则m的取值范围为？"><a href="#（2018·大庆）已知直线-y-kx-k-not-0-经过点（12-5），将直线向上平移m（m＞0）个单位，若平移后得到的直线与半径为6的⊙O相交（点O为坐标原点），则m的取值范围为？" class="headerlink" title="（2018·大庆）已知直线$y=kx(k \not= 0)$经过点（12,-5），将直线向上平移m（m＞0）个单位，若平移后得到的直线与半径为6的⊙O相交（点O为坐标原点），则m的取值范围为？"></a>（2018·大庆）已知直线$y=kx(k \not= 0)$经过点（12,-5），将直线向上平移m（m＞0）个单位，若平移后得到的直线与半径为6的⊙O相交（点O为坐标原点），则m的取值范围为？</h3><p>分析：这是一道直线与圆的位置关系的题，因为题目中要求为相交，我们只需算出相切时的情况并根据图像分析即可<br>解：</p><script type="math/tex; mode=display">∵y=kx(k≠0)经过(12,-5)</script><p>则有：</p><script type="math/tex; mode=display">-5=12x</script><p>即：</p><script type="math/tex; mode=display">x=-\frac{5}{12}</script><script type="math/tex; mode=display">∴y=-\frac{5}{12}x+m</script><p>设：直线$y=-\frac{5}{12}x+m$ 与x轴交于点$A(\frac{5}{12}m,0)$，与y轴交于点$B(0,m)$<br>$过O做OD \perp AB于点D$<br>则可绘图如下：<img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/直线与圆.png" alt="如图"><br>在$Rt\triangle AOB中$由勾股定理：</p><script type="math/tex; mode=display">AB= \sqrt{AO^2-BO^2}</script><p>整理得：</p><script type="math/tex; mode=display">AB=\frac{5}{13}m</script><p>又</p><script type="math/tex; mode=display">S_{\triangle AOB}=\frac{1}{2}AO·BO=\frac{1}{2}AB·OD</script><script type="math/tex; mode=display">∴\frac{1}{2}OD·\frac{5}{13}m=\frac{1}{2}×\frac{5}{12}m×m</script><script type="math/tex; mode=display">∵m>0</script><p>解得：</p><script type="math/tex; mode=display">OD=\frac{12}{13}m</script><p>根据直线与圆的位置关系可知$\frac{12}{13}m&lt;6$<br>解得</p><script type="math/tex; mode=display">0<m<\frac{13}{2}</script><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>给岁月以文明，而不是给文明以岁月。</p><footer><strong>三体</strong><cite>刘慈欣</cite></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      一道直线与圆的关系的填空题
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+      <category term="数学" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="中考题" scheme="http://mipmap.top/tags/%E4%B8%AD%E8%80%83%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用LaTex语法写化学式_化学方程式</title>
+    <link href="http://mipmap.top/posts/d816.html"/>
+    <id>http://mipmap.top/posts/d816.html</id>
+    <published>2020-03-16T09:51:30.000Z</published>
+    <updated>2020-04-03T14:56:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><a href="http://www.mipmap.top:666/posts/428.html" target="_blank" rel="noopener">上篇文章</a>中已经有使用过化学方程式，这次在这里集中做一下技术总结</p></blockquote><h3 id="化学式"><a href="#化学式" class="headerlink" title="化学式"></a>化学式</h3><p>对于任意化学式，都可以通过LaTeX语法书写，但结果需要mathjax等的渲染<br>语法如下<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$SO^&#123;2-&#125;_4$ </span><br><span class="line">$NH^+_4$</span><br></pre></td></tr></table></figure><br>其中”_”后跟下标，”^”后写上标<br>显示效果如下<br>$SO^{2-}_4$<br>$NH^+_4$</p><font size=1px>注：化合价目前未找到怎么标</font><h4 id="方法：元素-下标-上标-（元素后上下标若不为一个整体则需用-括起）"><a href="#方法：元素-下标-上标-（元素后上下标若不为一个整体则需用-括起）" class="headerlink" title="方法：元素_下标^上标 （元素后上下标若不为一个整体则需用{}括起）"></a>方法：元素_下标^上标 （元素后上下标若不为一个整体则需用{}括起）</h4><h3 id="表达式"><a href="#表达式" class="headerlink" title="表达式"></a>表达式</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$Fe + CuSO_4 \xrightarrow&#123;&#125; Cu + FeSO_4$</span><br><span class="line">$2KClO_3 \xrightarrow[\Delta]&#123;MnO_2&#125; 2KCl + 3O_2\uparrow$</span><br></pre></td></tr></table></figure><p>显示效果如下<br>$Fe + CuSO_4 \xrightarrow{} Cu + FeSO_4$<br>$2KClO_3 \xrightarrow[\Delta]{MnO_2} 2KCl + 3O_2\uparrow$</p><h4 id="方法-A-B-xrightarrow-反应条件下方-反应条件上方-C-D"><a href="#方法-A-B-xrightarrow-反应条件下方-反应条件上方-C-D" class="headerlink" title="方法 A+B \xrightarrow[反应条件下方]{反应条件上方} C + D"></a>方法 A+B \xrightarrow[反应条件下方]{反应条件上方} C + D</h4><h3 id="化学方程式"><a href="#化学方程式" class="headerlink" title="化学方程式"></a>化学方程式</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$Ca(OH)_2 + CO_2 \overset&#123;&#125;&#x3D; CaCO_3\downarrow + H_2O$</span><br><span class="line">$2KMnO_4 \triangleq K_2MnO_4 + MnO_2 O_2\uparrow$</span><br><span class="line">$C_2H_5OH +3O_2 \overset&#123;点燃&#125;&#x3D; CO_2 +3H_2O$</span><br></pre></td></tr></table></figure><p>显示效果如下<br>$Ca(OH)_2 + CO_2 \overset{}= CaCO_3\downarrow + H_2O$<br>$2KMnO_4 \triangleq K_2MnO_4 + MnO_2 O_2\uparrow$<br>$C_2H_5OH +3O_2 \overset{点燃}= CO_2 +3H_2O$</p><h4 id="方法：A-B-overset-反应条件-C-D"><a href="#方法：A-B-overset-反应条件-C-D" class="headerlink" title="方法：A + B \overset{反应条件}= C + D"></a>方法：A + B \overset{反应条件}= C + D</h4><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><p><a href="https://blog.csdn.net/lanchunhui/article/details/53096710?depth_1-utm_source=distribute.pc_relevant.none-task&amp;utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">Latex 箭头、下标、符号上下写文字、正方形和三角形</a><br><a href="https://blog.csdn.net/HaleyPKU/article/details/80341932?depth_1-utm_source=distribute.pc_relevant.none-task&amp;utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">最全 Markdown + Latex 编写技巧</a><br><a href="https://blog.csdn.net/liyuanbhu/article/details/51473886?depth_1-utm_source=distribute.pc_relevant.none-task&amp;utm_source=distribute.pc_relevant.none-task" target="_blank" rel="noopener">MathJax 支持的 Latex 符号总结</a></p>]]></content>
+    
+    <summary type="html">
+    
+      在MarkDown中利用LaTeX写化学式
+    
+    </summary>
+    
+    
+      <category term="博客部署" scheme="http://mipmap.top/categories/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="LaTeX" scheme="http://mipmap.top/categories/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/LaTeX/"/>
+    
+    
+      <category term="化学" scheme="http://mipmap.top/tags/%E5%8C%96%E5%AD%A6/"/>
+    
+      <category term="LaTeX" scheme="http://mipmap.top/tags/LaTeX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-15</title>
+    <link href="http://mipmap.top/posts/50014.html"/>
+    <id>http://mipmap.top/posts/50014.html</id>
+    <published>2020-03-15T03:53:56.000Z</published>
+    <updated>2020-04-25T06:51:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="距离中考还有98天"><a href="#距离中考还有98天" class="headerlink" title="距离中考还有98天"></a>距离中考还有<font color=red>98</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h3 id="内容：-对斜率计算公式-k-frac-y-2-y-1-x-2-x-1-的证明"><a href="#内容：-对斜率计算公式-k-frac-y-2-y-1-x-2-x-1-的证明" class="headerlink" title="内容： 对斜率计算公式$k=\frac{y_2-y_1}{x_2-x_1}$的证明"></a>内容： 对斜率计算公式$k=\frac{y_2-y_1}{x_2-x_1}$的证明</h3><p>证：设一次函数$y=kx+b(k\not=0)$<br>则设：函数上的两个点$(x_1,y_1)$,$(x_2,y_2)$<br>由题意可列方程组</p><script type="math/tex; mode=display">\begin{cases}y_1=kx_1+b ① \\ y_2=kx_2+b ② \\ \end{cases}</script><p>②-①得</p><script type="math/tex; mode=display">y_2-y_1=kx_2-kx_1</script><p>整理得</p><script type="math/tex; mode=display">y_2-y_1=k(x_2-x_1)</script><p>即</p><script type="math/tex; mode=display">k=\frac{y_2-y_1}{x_2-x_1}</script><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>生命以无限循环的形式在宇宙中生存。有神论者管这叫轮回转世，无神论者管这叫物质不灭。</p><footer><strong>郑渊洁</strong></footer></blockquote> ]]></content>
+    
+    <summary type="html">
+    
+      对有关一次函数斜率的计算公式的证明
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+      <category term="数学" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="函数" scheme="http://mipmap.top/tags/%E5%87%BD%E6%95%B0/"/>
+    
+      <category term="公式" scheme="http://mipmap.top/tags/%E5%85%AC%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEXO部署到阿里云CentOS服务器</title>
+    <link href="http://mipmap.top/posts/51171.html"/>
+    <id>http://mipmap.top/posts/51171.html</id>
+    <published>2020-03-14T15:07:02.000Z</published>
+    <updated>2020-04-03T16:32:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="部署环境"><a href="#部署环境" class="headerlink" title="部署环境"></a>部署环境</h2><ol><li>本地环境：<ul><li>Windows10(64bit)</li><li>环境：git，Node.js，hexo…</li><li>已部署成功的HEXO博客</li></ul></li><li>服务器环境：<ul><li>阿里云CentOS纯净系统</li></ul></li></ol><h2 id="服务器环境配置"><a href="#服务器环境配置" class="headerlink" title="服务器环境配置"></a>服务器环境配置</h2><h3 id="安装Git-通过安装-ius-源的方式"><a href="#安装Git-通过安装-ius-源的方式" class="headerlink" title="安装Git(通过安装 ius 源的方式)"></a>安装Git(通过安装 ius 源的方式)</h3><blockquote><p>此处为通过第三方ius源的方式</p></blockquote><h4 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a>安装依赖包</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</span><br><span class="line">yum install  gcc perl-ExtUtils-MakeMaker</span><br></pre></td></tr></table></figure><blockquote><p>因为使用的为纯净系统，所以不需要卸载Git</p></blockquote><h4 id="下载对应的-yum-源"><a href="#下载对应的-yum-源" class="headerlink" title="下载对应的 yum 源"></a>下载对应的 yum 源</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># wget https://centos7.iuscommunity.org/ius-release.rpm</span></span><br><span class="line">……直到出现</span><br><span class="line">2020-03-14 22:59:56 (184 MB/s) - ‘ius-release.rpm’ saved [8412/8412]</span><br></pre></td></tr></table></figure><h4 id="安装-yum-源"><a href="#安装-yum-源" class="headerlink" title="安装 yum 源"></a>安装 yum 源</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># rpm -i ius-release.rpm</span></span><br><span class="line">warning: ius-release.rpm: Header V4 RSA/SHA256 Signature, key ID 4b274df2: NOKEY</span><br><span class="line">        package ius-release-2-1.el7.ius.noarch is already installed</span><br></pre></td></tr></table></figure><blockquote><p>这里需要注意的是，使用ius源安装的软件，一般都会在软件名称后面加上版本号和u，可以查询得到:</p></blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># yum info git*u --disablerepo=base,extras,updates --enablerepo=ius</span></span><br><span class="line">Loaded plugins: fastestmirror</span><br><span class="line">ius                                                      | 1.3 kB     00:00</span><br><span class="line">ius/x86_64/primary                                         | 190 kB   00:10</span><br><span class="line">Loading mirror speeds from cached hostfile</span><br><span class="line">ius                                                                   1023/1023</span><br><span class="line">Available Packages</span><br><span class="line">Name        : git2u</span><br><span class="line">Arch        : x86_64</span><br><span class="line">Version     : 2.16.6</span><br><span class="line">Release     : 1.ius.el7</span><br><span class="line">Size        : 1.1 M</span><br><span class="line">Repo        : ius/x86_64</span><br><span class="line">Summary     : Fast Version Control System</span><br><span class="line">URL         : https://git-scm.com</span><br><span class="line">License     : GPLv2</span><br><span class="line">Description : Git is a fast, scalable, distributed revision control system with</span><br><span class="line">            : an unusually rich <span class="built_in">command</span> <span class="built_in">set</span> that provides both high-level</span><br><span class="line">            : operations and full access to internals.</span><br><span class="line">            :</span><br><span class="line">            : The git rpm installs common <span class="built_in">set</span> of tools <span class="built_in">which</span> are usually using</span><br><span class="line">            : with small amount of dependencies. To install all git packages,</span><br><span class="line">            : including tools <span class="keyword">for</span> integrating with other SCMs, install the</span><br><span class="line">            : git-all meta-package.</span><br></pre></td></tr></table></figure><blockquote><p>通过查询得知，在 ius 源中有 2.16.6 版本的 git</p></blockquote><h4 id="安装-ius-源中的-git"><a href="#安装-ius-源中的-git" class="headerlink" title="安装 ius 源中的 git"></a>安装 ius 源中的 git</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum install git2u</span><br></pre></td></tr></table></figure><p>安装后检查版本<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># git --version</span></span><br><span class="line">git version 2.16.6</span><br></pre></td></tr></table></figure><br>安装完成！</p><h3 id="后续步骤可全部参考-https-www-geekinns-cn-2020-03-09-E9-83-A8-E7-BD-B2Hexo"><a href="#后续步骤可全部参考-https-www-geekinns-cn-2020-03-09-E9-83-A8-E7-BD-B2Hexo" class="headerlink" title="后续步骤可全部参考:https://www.geekinns.cn/2020/03/09/%E9%83%A8%E7%BD%B2Hexo/"></a>后续步骤可全部参考:<a href="https://www.geekinns.cn/2020/03/09/%E9%83%A8%E7%BD%B2Hexo/" target="_blank" rel="noopener">https://www.geekinns.cn/2020/03/09/%E9%83%A8%E7%BD%B2Hexo/</a></h3><p>参考文献:<br>[1]Hexo博客部署到云服务器全流程:<a href="https://www.geekinns.cn/2020/03/09/%E9%83%A8%E7%BD%B2Hexo/" target="_blank" rel="noopener">https://www.geekinns.cn/2020/03/09/%E9%83%A8%E7%BD%B2Hexo/</a><br>[2]CentOS 7 升级 git 版本（通过安装 ius 源的方式）:<a href="https://blog.csdn.net/lovefengruoqing/article/details/83819591" target="_blank" rel="noopener">https://blog.csdn.net/lovefengruoqing/article/details/83819591</a></p>]]></content>
+    
+    <summary type="html">
+    
+      将本地HEXO部署到服务器
+    
+    </summary>
+    
+    
+      <category term="博客部署" scheme="http://mipmap.top/categories/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="CentOS" scheme="http://mipmap.top/categories/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/CentOS/"/>
+    
+    
+      <category term="HEXO" scheme="http://mipmap.top/tags/HEXO/"/>
+    
+      <category term="CentOS" scheme="http://mipmap.top/tags/CentOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-14</title>
+    <link href="http://mipmap.top/posts/927.html"/>
+    <id>http://mipmap.top/posts/927.html</id>
+    <published>2020-03-13T16:51:41.000Z</published>
+    <updated>2020-04-25T06:49:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="距离中考还有99天"><a href="#距离中考还有99天" class="headerlink" title="距离中考还有99天"></a>距离中考还有<font color=red>99</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：函数题"><a href="#题型：函数题" class="headerlink" title="题型：函数题"></a>题型：函数题</h2><h3 id="题目：如图①，在矩形-ABCD-中，AB＜AD，对角线-AC，BD-相交于点-O，动点-P-由点-A-出发，沿-AB→BC→CD-向点-D-运动．设点-P-的运动路程为-x，-triangle-AOP-的面积为-y，y-与-x-的函数关系图象如图②所示，则-AD-边的长为？-lt-br-gt"><a href="#题目：如图①，在矩形-ABCD-中，AB＜AD，对角线-AC，BD-相交于点-O，动点-P-由点-A-出发，沿-AB→BC→CD-向点-D-运动．设点-P-的运动路程为-x，-triangle-AOP-的面积为-y，y-与-x-的函数关系图象如图②所示，则-AD-边的长为？-lt-br-gt" class="headerlink" title="题目：如图①，在矩形 ABCD 中，AB＜AD，对角线 AC，BD 相交于点 O，动点 P 由点 A 出发，沿 AB→BC→CD 向点 D 运动．设点 P 的运动路程为 x，$\triangle AOP$的面积为 y，y 与 x 的函数关系图象如图②所示，则 AD 边的长为？&lt;/br&gt;"></a>题目：如图①，在矩形 ABCD 中，AB＜AD，对角线 AC，BD 相交于点 O，动点 P 由点 A 出发，沿 AB→BC→CD 向点 D 运动．设点 P 的运动路程为 x，$\triangle AOP$的面积为 y，y 与 x 的函数关系图象如图②所示，则 AD 边的长为？&lt;/br&gt;</h3><p><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/math_5.png" alt=""><br>分析：由图②可知，$\triangle AOP$的最大面积为3，又可知当P在AB上运动时$\triangle AOP$面积逐渐增大，到B时$\triangle AOP$面积最大为3，当P与点C重合时，无面积<br>解：由题意：过O做OE$\perp$AB于点E<br>∵O是AC的中点 OP$\parallel$AB 根据相似三角形（平行线分线段定理）可知2OE=BC</p><script type="math/tex; mode=display">∴S_{\triangle AOP}=\frac{1}{2}AB\times OE</script><script type="math/tex; mode=display">\frac{1}{4}AB\times BC=3</script><script type="math/tex; mode=display">∴AB·BC=12</script><p>则可列方程组</p><script type="math/tex; mode=display">\begin{cases}AB·BC=12  \\AB+BC=7  \\\end{cases}</script><p>解得</p><script type="math/tex; mode=display">AB=4或3</script><script type="math/tex; mode=display">∵AB < AD AD=BC</script><script type="math/tex; mode=display">∴AB < BC</script><script type="math/tex; mode=display">AB=3,BC=4</script><script type="math/tex; mode=display">AD=BC=4</script><p>答：AD边&nbsp;长为4</p><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>世界上有两件东西能够深深的震撼人们的心灵，一件事我们心中崇高的道德标准，另一件是我们头顶上的灿烂星空。</p><footer><strong>康德</strong></footer></blockquote> ]]></content>
+    
+    <summary type="html">
+    
+      一道一次函数图像和几何的分析判断题
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+      <category term="数学" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="中考题" scheme="http://mipmap.top/tags/%E4%B8%AD%E8%80%83%E9%A2%98/"/>
+    
+      <category term="函数" scheme="http://mipmap.top/tags/%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-13</title>
+    <link href="http://mipmap.top/posts/429.html"/>
+    <id>http://mipmap.top/posts/429.html</id>
+    <published>2020-03-12T16:39:33.000Z</published>
+    <updated>2020-03-29T08:06:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="距离中考还有100天"><a href="#距离中考还有100天" class="headerlink" title="距离中考还有100天"></a>距离中考还有<font color=red>100</font>天</h1><h2 id="学科：数学"><a href="#学科：数学" class="headerlink" title="学科：数学"></a>学科：数学</h2><h2 id="题型：应用题"><a href="#题型：应用题" class="headerlink" title="题型：应用题"></a>题型：应用题</h2><h3 id="题目：已知关于x的方程-x-2-2m-1-x-m-2-1-有两个不相等的实数根-2019-nbsp-巴中-lt-br-gt-1-求m的取值范围-lt-br-gt-2-设-x-1-x-2-是方程的两根且-x-2-1-x-2-2-x-1x-2-17-0-求m的值"><a href="#题目：已知关于x的方程-x-2-2m-1-x-m-2-1-有两个不相等的实数根-2019-nbsp-巴中-lt-br-gt-1-求m的取值范围-lt-br-gt-2-设-x-1-x-2-是方程的两根且-x-2-1-x-2-2-x-1x-2-17-0-求m的值" class="headerlink" title="题目：已知关于x的方程$x^2+(2m+1)x+m^2-1$有两个不相等的实数根.(2019&nbsp;巴中)&lt;/br&gt;1.求m的取值范围&lt;/br&gt;2.设$x_1,x_2$是方程的两根且$x^2_1+x^2_2+x_1x_2-17=0$.求m的值."></a>题目：已知关于x的方程$x^2+(2m+1)x+m^2-1$有两个不相等的实数根.(2019&nbsp;巴中)&lt;/br&gt;1.求m的取值范围&lt;/br&gt;2.设$x_1,x_2$是方程的两根且$x^2_1+x^2_2+x_1x_2-17=0$.求m的值.</h3><p>分析：此题第一问为根据根的判别式求m的取值范围，第二问为利用元二次方程中根和系数之间的关系(韦达定理)求常数项，按步骤运算即可<br>解:(1)由题意：<br>$\Delta=(2m+1)^2-4(m^2-1)$<br>　&nbsp;$=4m^2+4m+1-4m^2+4$<br>　&nbsp;$=4m+5&gt;0$<br>　&nbsp;$m&gt;-\frac{5}{4}$<br>∴m的取值范围为$m&gt;-\frac{5}{4}$ <font color=red>（注意此时的m不是二次项的系数，否则应添加$m\not=0$）</font></p><p>(2)由题意：<br>$(x_1+x_2)^2-2x_1x_2+x_1x_2=17$<br>　　　　　$(x_1+x_2)^2-x_1x_2=17$<br>根据方程：$x_1+x_2=-(2m+1),x_1x_2=m^2-1$<br>代入得：$(2m+1)^2-m^2+1=17$<br>化简得：　　&nbsp;&nbsp;$3m^2+4m-15=0$<br>　　　　　&nbsp;&nbsp;$(3m-5)(m+3)=0$<br>解得：$m_1=\frac{5}{3},m_2=-3$<br>∵$m&gt;-\frac{5}{4}$<br>∴$m=\frac{5}{3}$</p><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>浅水喧闹，深潭无波。</p><footer><strong>雪莱</strong></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      一道典型的有关二元一次方程根的情况的题型
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+      <category term="数学" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="数学" scheme="http://mipmap.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="中考题" scheme="http://mipmap.top/tags/%E4%B8%AD%E8%80%83%E9%A2%98/"/>
+    
+      <category term="计算题" scheme="http://mipmap.top/tags/%E8%AE%A1%E7%AE%97%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每日一题-2020-3-12</title>
+    <link href="http://mipmap.top/posts/428.html"/>
+    <id>http://mipmap.top/posts/428.html</id>
+    <published>2020-03-11T17:44:05.000Z</published>
+    <updated>2020-03-29T08:06:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p markdown="1" style="    color: red;     font-weight: bold; ">PS: （2020-03-14更新）更新的内容如下:</br>·将化学方程式由图片替换为LaTeX</p><h1 id="距离中考还有101天"><a href="#距离中考还有101天" class="headerlink" title="距离中考还有101天"></a>距离中考还有<font color=red>101</font>天</h1><h2 id="学科：化学"><a href="#学科：化学" class="headerlink" title="学科：化学"></a>学科：化学</h2><h2 id="题型：计算题"><a href="#题型：计算题" class="headerlink" title="题型：计算题"></a>题型：计算题</h2><h3 id="题目：-将CO通入盛有12g-Fe-2O-3-的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9-6g，则反应生成铁的质量为？"><a href="#题目：-将CO通入盛有12g-Fe-2O-3-的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9-6g，则反应生成铁的质量为？" class="headerlink" title="题目： 将CO通入盛有12g$Fe_2O_3$的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9.6g，则反应生成铁的质量为？"></a>题目： 将CO通入盛有12g$Fe_2O_3$的试管内，加热反应一段时间后，停止加热，继续通入CO至试管冷却，此时试管内残留固体的质量为9.6g，则反应生成铁的质量为？</h3><p>分析：此题反应前后均有气体参与，因此无法直接使用两个量，但反应前后可知氧化铁反应为铁，失去氧元素，因此可以由此计算<br>过程：设反应生成铁的质量为x<br>由题意：</p><script type="math/tex; mode=display">\underset{160}{Fe_2O_3}+3CO\overset{高温}=\underset{112}{2Fe}+3CO_2减少了\underset{48}{O_3}</script><p>则有: </p><script type="math/tex; mode=display">\frac{112}{x}=\frac{48}{2.4x}</script><p>解得：</p><script type="math/tex; mode=display">x=5.6g</script><p>答：反应生成的铁的质量为5.6g</p><hr><h3 id="每日一句"><a href="#每日一句" class="headerlink" title="每日一句"></a>每日一句</h3><blockquote><p>如果你打了半小时的牌，仍然不知道谁是菜鸟，那么你就是</p><footer><strong>巴菲特</strong></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      利用化学方程式的计算题
+    
+    </summary>
+    
+    
+      <category term="每日一题" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/"/>
+    
+      <category term="化学" scheme="http://mipmap.top/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/%E5%8C%96%E5%AD%A6/"/>
+    
+    
+      <category term="化学" scheme="http://mipmap.top/tags/%E5%8C%96%E5%AD%A6/"/>
+    
+      <category term="计算题" scheme="http://mipmap.top/tags/%E8%AE%A1%E7%AE%97%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://mipmap.top/posts/16107.html"/>
+    <id>http://mipmap.top/posts/16107.html</id>
+    <published>2020-03-11T03:53:56.000Z</published>
+    <updated>2020-03-27T12:48:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      Welcome to hexo!
+    
+    </summary>
+    
+    
+      <category term="博客部署" scheme="http://mipmap.top/categories/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>基于CentOS7的Hexo博客搭建</title>
+    <link href="http://mipmap.top/posts/dc4b.html"/>
+    <id>http://mipmap.top/posts/dc4b.html</id>
+    <published>2019-08-18T04:21:35.000Z</published>
+    <updated>2020-04-12T05:32:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-环境搭建"><a href="#1-环境搭建" class="headerlink" title="1.环境搭建"></a>1.环境搭建</h2><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>1)更新系统 <code>sudo yum update -y</code> 2)安装EPEL库 <code>sudo yum install epel-release -y</code> 3)安装Node.js <code>sudo yum install nodejs</code> 4)检查安装<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure><br>5)安装Git <code>sudo apt-get install git</code></p><h2 id="2-安装Hexo博客框架"><a href="#2-安装Hexo博客框架" class="headerlink" title="2.安装Hexo博客框架"></a>2.安装Hexo博客框架</h2><p>1)利用npm安装淘宝源(此步可以省略) <code>npm install -g cnpm --registry https://registry.npm.taobao.org</code> 2)安装Hexo <code>npm install -g hexo-cli</code> 3)检查安装 <code>hexo -v</code></p><h2 id="3-开始使用Hexo搭建博客"><a href="#3-开始使用Hexo搭建博客" class="headerlink" title="3.开始使用Hexo搭建博客"></a>3.开始使用Hexo搭建博客</h2><p>这里直接使用<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo官网</a>提供的命令<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><br>当看到<em>Start blogging with Hexo!</em> 时，说明搭建成功了 这时访问localhost:4000就可以看到你生成的博客了。</p><h2 id="4-将hexo部署到GitHub"><a href="#4-将hexo部署到GitHub" class="headerlink" title="4.将hexo部署到GitHub"></a>4.将hexo部署到GitHub</h2><p>此处借鉴<a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener">hexo史上最全搭建教程</a><br>1.在github上搭建仓库，仓库名于用户名相同<br>2.生成SSH添加到GitHub 参考上述链接即可</p>]]></content>
+    
+    <summary type="html">
+    
+      在CentOS上搭建HEXO
+    
+    </summary>
+    
+    
+      <category term="博客部署" scheme="http://mipmap.top/categories/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="CentOS" scheme="http://mipmap.top/categories/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/CentOS/"/>
+    
+    
+      <category term="HEXO" scheme="http://mipmap.top/tags/HEXO/"/>
+    
+      <category term="CentOS" scheme="http://mipmap.top/tags/CentOS/"/>
+    
+  </entry>
+  
+</feed>

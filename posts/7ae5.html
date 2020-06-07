@@ -1,0 +1,239 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>函数题型总结(一) | MipMap's Blog</title><meta name="description" content="第一章·一次函数"><meta name="keywords" content="数学,函数"><meta name="author" content="MipMap,1479696288@qq.com"><meta name="copyright" content="MipMap"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="preconnect" href="https://hm.baidu.com"/><link rel="dns-prefetch" href="https://hm.baidu.com"/><link rel="preconnect" href="http://ta.qq.com"/><link rel="dns-prefetch" href="http://ta.qq.com"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="函数题型总结(一)"><meta name="twitter:description" content="第一章·一次函数"><meta name="twitter:image" content="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_7.png"><meta property="og:type" content="article"><meta property="og:title" content="函数题型总结(一)"><meta property="og:url" content="http://mipmap.top/posts/7ae5.html"><meta property="og:site_name" content="MipMap's Blog"><meta property="og:description" content="第一章·一次函数"><meta property="og:image" content="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_7.png"><meta property="article:published_time" content="2020-05-01T03:44:33.000Z"><meta property="article:modified_time" content="2020-05-03T07:58:52.000Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script><!-- hexo-inject:begin --><!-- hexo-inject:end -->var autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="http://mipmap.top/posts/7ae5.html"><link rel="next" title="函数题型总结(零)" href="http://mipmap.top/posts/bc01.html"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3052e78e8467e2fac3f64a91d4ee3ab9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-161508505-2', 'auto');
+ga('send', 'pageview');
+</script><script src="https://tajs.qq.com/stats?sId=66534611" charset="UTF-8"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"http://mipmap.top6/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: {"languages":{"author":"作者: MipMap","link":"链接: ","source":"来源: MipMap's Blog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  baiduPush: true,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: true,
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isSidebar: true  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><!-- start webpushr code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('init','BBBlDY2yXeqW24zz4InmZmE8WiTGE9PN-c1DFFSDQ2QLLf_sYIZT7UpL0zBpTWrBNpPpQ3Pwlt2Um71dd1RoMyA');</script><!-- end webpushr code --><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="MipMap's Blog" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/user/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">18</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">14</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">12</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-cube" aria-hidden="true"></i><span> 归档</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fa-fw fa fa-coffee"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> KindleEar</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="http://dailykindle.mipmap.top" target="_blank" rel="noopener"><i class="fa-fw fas fa-sun"></i><span> Daily</span></a></li><li><a class="site-page" href="http://nightlykindle.mipmap.top" target="_blank" rel="noopener"><i class="fa-fw fas fa-moon"></i><span> Nightly</span></a></li></ul></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#第一章-一次函数"><span class="toc-text">第一章 一次函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-一次函数的图像与性质"><span class="toc-text">1.1 一次函数的图像与性质</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-一次函数的解析式"><span class="toc-text">1.2 一次函数的解析式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1变式"><span class="toc-text">1.2.1变式</span></a></li></ol></li></ol></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><div class="post-bg" id="nav" style="background-image: url(https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_7.png)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">MipMap's Blog</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-cube" aria-hidden="true"></i><span> 归档</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fa-fw fa fa-coffee"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> KindleEar</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="http://dailykindle.mipmap.top" target="_blank" rel="noopener"><i class="fa-fw fas fa-sun"></i><span> Daily</span></a></li><li><a class="site-page" href="http://nightlykindle.mipmap.top" target="_blank" rel="noopener"><i class="fa-fw fas fa-moon"></i><span> Nightly</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="post-info"><div id="post-title"><div class="posttitle">函数题型总结(一)</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2020-05-01 11:44:33"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 2020-05-01</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-05-03 15:58:52"><i class="fa fa-history" aria-hidden="true"></i> 更新于 2020-05-03</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E5%87%BD%E6%95%B0%E6%80%BB%E7%BB%93/">函数总结</a><i class="fa fa-angle-right post-meta__separator" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E5%87%BD%E6%95%B0%E6%80%BB%E7%BB%93/%E7%AC%AC1%E7%AB%A0/">第1章</a></span></div><div class="meta-secondline"> </div><div class="meta-thirdline"><span class="post-meta-pv-cv"><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><div class="note primary no-icon">
+            <!-- hexo-inject:begin --><!-- hexo-inject:end --><p>有关于函数题型总结的第一章—一次函数正式出炉</p>
+          </div>
+<a id="more"></a>
+<h2 id="第一章-一次函数"><a href="#第一章-一次函数" class="headerlink" title="第一章 一次函数"></a><center>第一章 一次函数</center></h2><h3 id="1-1-一次函数的图像与性质"><a href="#1-1-一次函数的图像与性质" class="headerlink" title="1.1 一次函数的图像与性质"></a>1.1 一次函数的图像与性质</h3><p>注：以下内容摘自《火线:100天》 逃<br>排版问题本人能力有限，只能做到这样了</p>
+<p><style type="text/css"><br>.tg  {border-collapse:collapse;border-spacing:0;}<br>.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;<br>  overflow:hidden;padding:10px 5px;word-break:normal;}<br>.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;<br>  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}<br>.tg .tg-cv9r{border-color:inherit;color:rgb(0, 0, 0);text-align:left;vertical-align:top}<br>.tg .tg-dq6r{border-color:inherit;color:rgb(0, 0, 0);font-size:16px;text-align:center;vertical-align:top}<br>.tg .tg-q78j{background-color:#ffcc67;border-color:#000000;color:rgb(0, 0, 0);font-size:15px;font-weight:bold;text-align:center;<br>  vertical-align:top}<br>.tg .tg-gcnl{border-color:inherit;color:rgb(0, 0, 0);font-size:18px;text-align:center;vertical-align:middle}<br>.tg .tg-lwtf{background-color:#ffcc67;border-color:#000000;color:rgb(0, 0, 0);font-size:15px;font-weight:bold;text-align:center;<br>  vertical-align:middle}<br>.tg .tg-9e4f{border-color:inherit;color:rgb(0, 0, 0);text-align:center;vertical-align:top}
+</style></p>
+<table class="tg">
+  <tr>
+    <th class="tg-q78j">一次函数</th>
+    <th class="tg-gcnl" colspan="6">y=kx+b(k≠0)(当b=0时，y=kx为正比例函数)</th>
+  </tr>
+  <tr>
+    <td class="tg-lwtf" rowspan="2">与坐标<br>轴交点</td>
+    <td class="tg-gcnl" colspan="6" rowspan="2">与x轴交于点($-\frac{b}{k}$,0)<br>与y轴交于点(b,0)</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td class="tg-lwtf" rowspan="2">k,b<br>符号</td>
+    <td class="tg-dq6r" colspan="3">k&gt;0</td>
+    <td class="tg-dq6r" colspan="3">k&lt;0</td>
+  </tr>
+  <tr>
+    <td class="tg-9e4f">b&gt;0</td>
+    <td class="tg-9e4f">b&lt;0</td>
+    <td class="tg-9e4f">b=0</td>
+    <td class="tg-9e4f">b&gt;0</td>
+    <td class="tg-9e4f">b&lt;0</td>
+    <td class="tg-9e4f">b=0</td>
+  </tr>
+  <tr>
+    <td class="tg-lwtf" rowspan="3">大致<br>图像</td>
+    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_13.png" alt="Image" width="80" height="90"></td>
+    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_9.png" width="80" height="90"></td>
+    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_10.png" width="80" height="90"></td>
+    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_11.png" width="80" height="90"></td>
+    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_12.png" width="80" height="90"></td>
+    <td class="tg-cv9r" rowspan="3"><img src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_13.png" width="80" height="90"></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td class="tg-q78j">经过象限</td>
+    <td class="tg-9e4f">一、二、三</td>
+    <td class="tg-9e4f">一、三、四</td>
+    <td class="tg-9e4f">一、三</td>
+    <td class="tg-9e4f">一、二、四</td>
+    <td class="tg-9e4f">二、三、四</td>
+    <td class="tg-9e4f">二、四</td>
+  </tr>
+  <tr>
+    <td class="tg-q78j">增减性</td>
+    <td class="tg-dq6r" colspan="3">y随x的增大而增大</td>
+    <td class="tg-dq6r" colspan="3">y随x的减小而减小</td>
+  </tr>
+</table>
+
+<h3 id="1-2-一次函数的解析式"><a href="#1-2-一次函数的解析式" class="headerlink" title="1.2 一次函数的解析式"></a>1.2 一次函数的解析式</h3><p>方法：待定系数法</p>
+<ol>
+<li>设一次函数的解析式 $y=kx+b(k \not ={0})$</li>
+<li>如图，若图像上已知两点的坐标(当然考试里是不可能的) $A(x_a,y_a),B(x_b,y_b)$<br>则可列方程组<script type="math/tex; mode=display">
+\begin{cases}
+kx_a+b=y_a  \\
+kx_b+b=y_b  \\
+\end{cases}</script></li>
+<li>解方程，得到k,b的值</li>
+<li>将k，b的值代入$y=kx+b(k \not ={0})$，得到解析式<br>PS: 当一点在y轴上时，该点的纵坐标就为b的值（众所周知）</li>
+</ol>
+<h4 id="1-2-1变式"><a href="#1-2-1变式" class="headerlink" title="1.2.1变式"></a>1.2.1变式</h4><ol>
+<li><p>一次函数与面积(一般常考一次函数与反比例函数中，这里仅仅做个例子)<br>(由于本人编题能力有限，放一道例题)<br><b>在一次函数$y=-x+3$的图像上取一点P，做$PA\perp{x轴}$，垂足为A；作$PB\perp{y轴}$，垂足为B；且矩形OAPB的面积为2，求点P的坐标</b><br>解：由题意$S_{四边形OAPB}=\vert{PA}\vert \times \vert{PB}\vert$,<br>设点P的坐标$(x_p,-x_p+3)$<br>则有$\vert{PA}\vert=\vert{x_p}\vert$，$\vert{PB}\vert=\vert{-x_p+3}\vert$<br>所以$S=\vert{x_p}\vert\cdot\vert{-x_p+3}\vert$<br>即$x^2_p-3x_p-2=0$或$x^2_p-3x_p+2=0$<br>解得$x_p=\frac{3-\sqrt{17}}{2}$,$x_p=\frac{3+\sqrt{17}}{2}$,$x_p=1$,$x_p=2$<br>所以P的坐标为：$P(\frac{3-\sqrt{17}}{2}$,$\frac{3+\sqrt{17}}{2})$,$P(\frac{3+\sqrt{17}}{2},\frac{3-\sqrt{17}}{2})$,$P(1,2)$,$P(2,1)$</p>
+</li>
+<li><p>一次函数与平移<br>设直线$y=kx+b(k \not ={0})$</p>
+<ul>
+<li>向左平移m(m&gt;0)个单位长度$\rightarrow{y=k(x+m)+b}$</li>
+<li>向右平移m(m&gt;0)个单位长度$\rightarrow{y=k(x-m)+b}$</li>
+<li>向上平移m(m&gt;0)个单位长度$\rightarrow{y=kx+b+m}$</li>
+<li>向下平移m(m&gt;0)个单位长度$\rightarrow{y=kx+b-m}$</li>
+</ul>
+</li>
+<li><p>一次函数与折叠</p>
+</li>
+<li>一次函数与动点<br>这两个先留着，到时候有需要了，或者找到好的例题了再更</li>
+</ol>
+<font size="5" style="color:yellow"><center>看我这么努力的份上，打赏一下请我吃糖吧</center></font></div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:1479696288@qq.com">MipMap</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://mipmap.top/posts/7ae5.html">http://mipmap.top/posts/7ae5.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://mipmap.top" target="_blank">MipMap's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6/">数学</a><a class="post-meta__tags" href="/tags/%E5%87%BD%E6%95%B0/">函数</a></div><div class="post_share"><div class="social-share" data-image="https://mipmap-files.oss-cn-beijing.aliyuncs.com/blog/math_7.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="/img/wechat.png" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="post-qr-code__img" src="/img/alipay.jpg" alt="支付宝"/><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/posts/bc01.html"><img class="next_cover" src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/math_6.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">函数题型总结(零)</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/posts/bc01.html" title="函数题型总结(零)"><img class="relatedPosts_cover" src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/text/math_6.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-04-25</div><div class="relatedPosts_title">函数题型总结(零)</div></div></a></div><div class="relatedPosts_item"><a href="/posts/927.html" title="每日一题-2020-3-14"><img class="relatedPosts_cover" src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/wallpaper/17.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-03-14</div><div class="relatedPosts_title">每日一题-2020-3-14</div></div></a></div><div class="relatedPosts_item"><a href="/posts/50014.html" title="每日一题-2020-3-15"><img class="relatedPosts_cover" src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/wallpaper/20.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-03-15</div><div class="relatedPosts_title">每日一题-2020-3-15</div></div></a></div><div class="relatedPosts_item"><a href="/posts/3167.html" title="每日一题-2020-3-19"><img class="relatedPosts_cover" src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/wallpaper/8.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-03-19</div><div class="relatedPosts_title">每日一题-2020-3-19</div></div></a></div><div class="relatedPosts_item"><a href="/posts/69f.html" title="每日一题-2020-3-18"><img class="relatedPosts_cover" src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/wallpaper/21.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-03-18</div><div class="relatedPosts_title">每日一题-2020-3-18</div></div></a></div><div class="relatedPosts_item"><a href="/posts/f05f.html" title="每日一题-2020-3-21"><img class="relatedPosts_cover" src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/wallpaper/2.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-03-21</div><div class="relatedPosts_title">每日一题-2020-3-21</div></div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://mipmap-files.oss-cn-beijing.aliyuncs.com/scripts/valine.js"></script><script>var requestSetting = function (from,set) {
+  var from = from
+  var setting = set.split(',').filter(function(item){
+  return from.indexOf(item) > -1
+  });
+  setting = setting.length == 0 ? from :setting;
+  return setting
+}
+
+var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
+var requiredFields = requestSetting(['nick','mail','link'],'nick,mail')
+
+window.valine = new Valine({
+  el:'#vcomment',
+  appId: 'InrPg2rPgFD9sylKMbhD5RzH-gzGzoHsz',
+  appKey: 'MYWVQhBJyPaL2XUoqxuv4du2',
+  notify: false,
+  verify: false,
+  placeholder: '说点什么想说的话吧♪(^∇^*)',
+  avatar: 'monsterid',
+  meta: guestInfo,
+  pageSize: '10',
+  lang: 'zh-cn',
+  recordIP: true,
+  serverURLs: '',
+  emojiCDN: '',
+  emojiMaps: "",
+  enableQQ: true,
+  requiredFields: requiredFields
+});</script></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 By MipMap</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode far fa-moon" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  CommonHTML: {
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "HTML-CSS": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "SVG": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  }
+});
+</script><script type="text/x-mathjax-config">MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for (i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body></html>
